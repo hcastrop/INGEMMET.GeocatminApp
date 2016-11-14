@@ -1,0 +1,65 @@
+<div class="divPrincipal">
+        <div class="report-feature-content" data-dojo-attach-point="content">
+            <div class="coordenadas-tab-node" data-dojo-attach-point="selectTabNode" id="coordenadaTabNode">
+                Coordendadas
+
+                <div class="PreEvalCell" id="contoles">
+                    <input id="cboZona">
+                </div>
+
+
+                <div id="ContenUbigeoGrid">
+                    <table id="PreEvalGridEdit" data-dojo-attach-point="TableUbigeoGrid" dojotype="dojox.grid.DataGrid" singleclickedit="true", rowsperpage="10" autoheight="true"></table>
+                </div>
+
+                <button data-dojo-type="dijit/form/Button" id="btnLimpiar" iconclass="myIcon myIconUbicar" type="button">
+                    Graficar
+                </button>
+
+
+            </div>
+            <div class="ubigeo-tab-node" data-dojo-attach-point="ubigoTabNode">
+                Ubigeo
+                <div class="Tableubigeo">
+                    <div class="ubigeoHeading">
+                        <div class="ubigeoCell">
+                            <p>Regi&oacuten</p>
+                        </div>
+                        <div class="ubigeoCell">
+                            <p>Provincia</p>
+                        </div>
+                        <div class="ubigeoCell">
+                            <p>Distrito</p>
+                        </div>
+                        <div class="ubigeoCell">
+                            <p>Cuadr&aacute;ngulo</p>
+                        </div>
+                    </div>
+                    <div class="ubigeoRow">
+                        <div class="ubigeoCell">
+                            <select data-dojo-type="dijit/form/MultiSelect" id="lstDepartamento" name="lstDepartamento" size="6" class="combos"></select>
+                        </div>
+                        <div class="ubigeoCell">
+                            <select data-dojo-type="dijit/form/MultiSelect" id="lstProvincia" name="lstProvincia" size="6" class="combos"></select>
+
+                        </div>
+                        <div class="ubigeoCell">
+                            <select data-dojo-type="dijit/form/MultiSelect" id="lstDistrito" name="lstDistrito" size="6" class="combos"></select>
+                        </div>
+                        <div class="ubigeoCell">
+                            <select data-dojo-type="dijit/form/MultiSelect" id="lstCuadrangulo" name="lstCuadrangulo" size="6"  class="combos"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-dojo-attach-point="drawBox" data-dojo-type="jimu/dijit/DrawBox" data-dojo-props='types:["point","polyline","polygon"],showClear:false' style="margin-top:5px;"></div>
+
+
+                <div >
+                    <table id="PreEvalGridCaptura" data-dojo-attach-point="PreEvalGridCaptura" dojotype="dojox.grid.DataGrid" rowsperpage="10" autoheight="true"></table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+

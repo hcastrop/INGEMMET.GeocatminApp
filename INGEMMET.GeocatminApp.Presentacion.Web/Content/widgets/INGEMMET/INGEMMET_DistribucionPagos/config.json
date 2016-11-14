@@ -1,0 +1,8 @@
+{
+  "urlRegion": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/0",
+  "camposRegion": "CD_DEPA, NM_DEPA",
+  "urlProvincia": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/1",
+  "camposProvincia": "CD_PROV, NM_PROV",
+  "urlDistrito": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/2",
+  "camposDistrito": "CD_DIST, NM_DIST"
+  }

@@ -1,0 +1,56 @@
+<div class="divPrincipal">
+    <table id="ResumenGrid" dojoType="dojox.grid.DataGrid" rowsPerPage="10" autoHeight="true" style="width: 191px;   height: 132px;"></table>
+    <div style="text-align: center;">
+    <button data-dojo-type="dijit/form/Button" id="btnBuscarCM"   iconClass= "myIcon myIconBuscar" type="button">            
+            Listar Derechos Mineros
+        </button>
+    </div>
+
+
+    <div data-dojo-type="dijit/Dialog" data-dojo-id="myFormDialog" title="Form Dialog"
+         execute="alert('submitted w/args:\n' + dojo.toJson(arguments[0], true));">
+
+        <div class="dijitDialogPaneContentArea">
+            <table>
+                <tr>
+                    <td><label for="name">Name: </label></td>
+                    <td><input data-dojo-type="dijit/form/TextBox" type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="loc">Location: </label></td>
+                    <td><input data-dojo-type="dijit/form/TextBox" type="text" name="loc" id="loc"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Start date: </label></td>
+                    <td><input data-dojo-type="dijit/form/DateTextBox" data-dojo-id="myStartDate" onchange="myEndDate.constraints.min = arguments[0];" type="text" name="sdate" id="sdate"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">End date: </label></td>
+                    <td><input data-dojo-type="dijit/form/DateTextBox" data-dojo-id="myEndDate" onchange="myStartDate.constraints.max = arguments[0];" type="text" name="edate" id="edate"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Time: </label></td>
+                    <td><input data-dojo-type="dijit/form/TimeTextBox" type="text" name="time" id="time"></td>
+                </tr>
+                <tr>
+                    <td><label for="desc">Description: </label></td>
+                    <td><input data-dojo-type="dijit/form/TextBox" type="text" name="desc" id="desc"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="dijitDialogPaneActionBar">
+            <button data-dojo-type="dijit/form/Button" type="submit" onclick="return myFormDialog.isValid();">
+                OK
+            </button>
+            <button data-dojo-type="dijit/form/Button" type="button" onclick="myFormDialog.hide()">
+                Cancel
+            </button>
+        </div>
+    </div>
+
+    <p>When pressing this button the dialog will popup:</p>
+    <button id="buttonThree" data-dojo-type="dijit/form/Button" type="button" onclick="myFormDialog.show();">
+        Show me!
+    </button>
+</div>

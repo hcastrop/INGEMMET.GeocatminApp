@@ -1,0 +1,38 @@
+.divCorredorMinero {
+    padding: 2px;
+    text-align: center;
+}
+
+.UbigeoGridOff {
+    width: 0px;
+}
+
+.UbigeoGridOn {
+    width: 192px;
+}
+
+.ComboDM {
+    width: 130px;
+}
+
+.Tableubigeo {
+    display: table;
+}
+
+.ubigeoHeading {
+    display: table-row;
+    /*font-weight: bold;*/
+    text-align: center;
+}
+
+.ubigeoRow {
+    display: table-row;
+}
+
+.ubigeoCell {
+    display: table-cell;
+    /*border: solid;*/
+    border-width: thin;
+    padding-left: 2px;
+    padding-right: 2px;
+}

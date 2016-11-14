@@ -1,0 +1,1409 @@
+{
+    "theme": {
+        "name": "INGEMMETTheme",
+        "styles": [
+            "default",
+            "style2",
+            "style3"
+        ],
+        "version": "2.1"
+    },
+    "portalUrl": "http://ingemmet-peru.maps.arcgis.com",
+    "appId": "",
+    "authorizedCrossOriginDomains": [ ],
+    "title": "Geocatmin",
+    "subtitle": "",
+    "keepAppState": true,
+    "logo": "images\\logo.png",
+    "geometryService": "http://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+    "links": [ ],
+    "widgetOnScreen": {
+        "widgets": [
+            {
+                "name": "LocalLayer",
+                "label": "Widget Capa Local",
+                "version": "2.0",
+                "uri": "widgets/LocalLayer/Widget",
+                "config": "configs/LocalLayer/config_Widget Capa Local.json"
+            },
+            {
+                "uri": "themes/INGEMMETTheme/widgets/AnchorBarController/Widget",
+                "position": {
+                    "left": 0,
+                    "top": 0,
+                    "width": 0,
+                    "height": 140,
+                    "relativeTo": "map",
+                    "zIndex": 50
+                },
+                "version": "2.1",
+                "id": "themes_INGEMMETTheme_widgets_AnchorBarController_Widget_76",
+                "icon": "Content/themes/INGEMMETTheme/widgets/AnchorBarController/images/icon.png?wab_dv=2.1",
+                "name": "AnchorBarController",
+                "label": "Anclar controlador de barra"
+            },
+            {
+                "uri": "themes/INGEMMETTheme/widgets/Header/Widget",
+                "position": {
+                    "left": 0,
+                    "top": 0,
+                    "width": 0,
+                    "height": 0,
+                    "relativeTo": "map"
+                },
+                "version": "2.1",
+                "id": "themes_INGEMMETTheme_widgets_Header_Widget_77",
+                "icon": "Content/themes/INGEMMETTheme/widgets/Header/images/icon.png?wab_dv=2.1",
+                "name": "Header",
+                "label": "Encabezado"
+            },
+            {
+                "uri": "widgets/Search/Widget",
+                "position": {
+                    "right": 295,
+                    "top": 12,
+                    "width": 150,
+                    "zIndex": 1,
+                    "relativeTo": "map"
+                },
+                "version": "2.1",
+                "id": "widgets_Search_Widget_78",
+                "icon": "Content/widgets/Search/images/icon.png?wab_dv=2.1",
+                "name": "Search",
+                "label": "Búsqueda",
+                "config": "configs/Search/config_Búsqueda.json"
+            },
+            {
+                "uri": "widgets/OverviewMap/Widget",
+                "position": {
+                    "right": -15,
+                    "bottom": -15,
+                    "relativeTo": "map"
+                },
+                "version": "2.1",
+                "id": "widgets_OverviewMap_Widget_79",
+                "icon": "Content/widgets/OverviewMap/images/icon.png?wab_dv=2.1",
+                "name": "OverviewMap",
+                "label": "Mapa de vista general"
+            },
+            {
+                "uri": "widgets/ZoomSlider/Widget",
+                "position": {
+                    "left": 10,
+                    "top": 200,
+                    "relativeTo": "map"
+                },
+                "version": "2.1",
+                "id": "widgets_ZoomSlider_Widget_80",
+                "icon": "Content/widgets/ZoomSlider/images/icon.png?wab_dv=2.1",
+                "name": "ZoomSlider",
+                "label": "Control deslizante de zoom"
+            },
+            {
+                "uri": "widgets/HomeButton/Widget",
+                "position": {
+                    "left": 10,
+                    "top": 265,
+                    "relativeTo": "map"
+                },
+                "id": "widgets_HomeButton_Widget_81",
+                "icon": "Content/widgets/HomeButton/images/icon.png?wab_dv=2.1",
+                "name": "HomeButton",
+                "label": "Inicio",
+                "version": "2.1"
+            },
+            {
+                "uri": "widgets/MyLocation/Widget",
+                "position": {
+                    "left": 10,
+                    "top": 300,
+                    "relativeTo": "map"
+                },
+                "version": "2.1",
+                "id": "widgets_MyLocation_Widget_82",
+                "icon": "Content/widgets/MyLocation/images/icon.png?wab_dv=2.1",
+                "name": "MyLocation",
+                "label": "Mi ubicación"
+            },
+            {
+                "uri": "widgets/AttributeTable/Widget",
+                "version": "2.1",
+                "position": {
+                    "right": 5,
+                    "bottom": 65,
+                    "relativeTo": "map"
+                },
+                "closeable": true,
+                "id": "widgets_AttributeTable_Widget_83",
+                "icon": "Content/widgets/AttributeTable/images/icon.png?wab_dv=2.1",
+                "name": "AttributeTable",
+                "label": "Tabla de atributos",
+                "featureActions": [
+                    {
+                        "name": "ShowRelatedRecords",
+                        "uri": "actions/ShowRelatedRecordsFeatureAction"
+                    },
+                    {
+                        "name": "ViewInTable",
+                        "uri": "actions/ViewInAttributeTableFeatureAction"
+                    }
+                ]
+            },
+            {
+                "uri": "widgets/Coordinate/Widget",
+                "position": {
+                    "left": 5,
+                    "bottom": 5,
+                    "relativeTo": "map"
+                },
+                "id": "widgets_Coordinate_Widget_84",
+                "icon": "Content/widgets/Coordinate/images/icon.png?wab_dv=2.1",
+                "name": "Coordinate",
+                "label": "Coordenada",
+                "version": "2.1"
+            },
+            {
+                "uri": "widgets/Scalebar/Widget",
+                "position": {
+                    "left": 5,
+                    "bottom": 35,
+                    "relativeTo": "map"
+                },
+                "version": "2.1",
+                "id": "widgets_Scalebar_Widget_85",
+                "icon": "Content/widgets/Scalebar/images/icon.png?wab_dv=2.1",
+                "name": "Scalebar",
+                "label": "Barra de escala"
+            },
+            {
+                "uri": "widgets/Splash/Widget",
+                "visible": false,
+                "position": {
+                    "relativeTo": "browser"
+                },
+                "version": "2.1",
+                "id": "widgets_Splash_Widget_86",
+                "icon": "Content/widgets/Splash/images/icon.png?wab_dv=2.1",
+                "config": "configs/Splash/config_splash.json",
+                "name": "Splash",
+                "label": "Pantalla de presentación"
+            },
+            {
+                "position": {
+                    "right": 5,
+                    "top": 5,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 1,
+                "id": "_87",
+                "name": "eBasemapGallery",
+                "label": "Galería de Mapas Base",
+                "icon": "Content/widgets/eBasemapGallery/images/icon.png?wab_dv=2.1",
+                "version": "2.1",
+                "uri": "widgets/eBasemapGallery/Widget",
+                "config": "configs/eBasemapGallery/config_Galería de mapas base_2.json"
+            },
+            {
+                "position": {
+                    "right": 45,
+                    "top": 5,
+                    "relativeTo": "map"
+                },
+                "positionpanel": {
+                    "right": 15,
+                    "bottom": 15,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 1,
+                "id": "_88",
+                "name": "LayerList",
+                "label": "Listado de capas",
+                "version": "2.1",
+                "uri": "widgets/LayerList/Widget",
+                "icon": "Content/widgets/LayerList/images/icon.png?wab_dv=2.1",
+                "config": "configs/LayerList/config_Lista de capas_2.json",
+                "openAtStart": true
+            },
+            {
+                "position": {
+                    "right": 85,
+                    "top": 5,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 1,
+                "id": "_89",
+                "name": "Legend",
+                "label": "Leyenda",
+                "icon": "Content/widgets/Legend/images/icon.png?wab_dv=2.1",
+                "version": "2.1",
+                "uri": "widgets/Legend/Widget",
+                "config": "configs/Legend/config_Leyenda_4.json"
+            },
+            {
+                "position": {
+                    "right": 125,
+                    "top": 5,
+                    "relativeTo": "map"
+                },
+                "placeholderIndex": 1,
+                "id": "_90",
+                "name": "Identify",
+                "label": "Identificador",
+                "version": "2.1",
+                "icon": "Content/widgets/Identify/images/icon.png?wab_dv=2.1",
+                "uri": "widgets/Identify/Widget",
+                "config": "configs/Identify/Identify.json"
+            },
+            {
+                "name": "Resultados",
+                "label": "Resultados",
+                "version": "1.3",
+                "id": "_91",
+                "uri": "widgets/INGEMMET/INGEMMET_Resultados/Widget",
+                "id": "INGEMMET_Resultados",
+                "config": "widgets/INGEMMET/INGEMMET_Resultados/config.json",
+                "icon": "Content/widgets/INGEMMET/INGEMMET_Resultados/images/icon.png",
+                "position": {
+                    "right": -2000,
+                    "bottom": -1000,
+                    "width": 320,
+                    "height": 320,
+                    "relativeTo": "map"
+                },
+				 "positionpanel": {
+                    "right": 15,
+                    "bottom": 15,
+                    "relativeTo": "map"
+                },
+				"openAtStart": true
+            },
+			{
+				"uri": "widgets/INGEMMET/INGEMMET_Buscar_CM/Widget",
+                "version": "2.1",
+                "id": "INGEMMET_Buscar_CM_1",
+                "icon": "Content/widgets/INGEMMET/INGEMMET_Buscar_CM/images/icon.png",
+                "name": "Buscar_CM_1",
+                "label": "Buscar Derecho Minero",
+                "config": "configs/INGEMMET/config_DM.json",
+				
+				"openAtStart": true,
+				"position": {
+                            "bottom": 40,
+                            "left": 50,
+                            "width": 300,
+                            "height": 290,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+            }
+
+        ],
+        "panel": {
+            "uri": "jimu/OnScreenWidgetPanel",
+            "position": {
+                "relativeTo": "map"
+            }
+        }
+    },
+    "map": {
+        "3D": false,
+        "2D": true,
+        "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+        },
+        "itemId": "6e03e8c26aad4b9c92a87c1063ddb0e3",
+        "mapOptions": {
+            "showLabels": true,
+            "extent": {
+                "xmin": -81.83199119546,
+                "ymin": -18.824816351589998,
+                "xmax": -67.96561295011001,
+                "ymax": 0.204784303349982,
+                "spatialReference": {
+                    "wkid": 4326
+                }
+            },
+
+            "logo": false
+        },
+        "id": "map",
+        "portalUrl": "http://ingemmet-peru.maps.arcgis.com/"
+    },
+    "widgetPool": {
+        "panel": {
+            "uri": "themes/INGEMMETTheme/panels/LaunchpadPanel/Panel",
+            "position": {
+                "relativeTo": "map"
+            }
+        },
+        "widgets": [
+
+        ],
+        "groups": [
+            {
+                "label": "Búsquedas",
+                "tipo": "grupo",
+                "icon": "Content/widgets/INGEMMET/images/search_network.png",
+                "index": 1,
+                "id": "_32",
+                "visible": true,
+                "panel": {
+                    "uri": "themes/INGEMMETTheme/panels/LaunchpadPanel/Panel",
+                    "position": {
+                        "relativeTo": "map"
+                    }
+                },
+                "widgets": [
+                    {
+                        "uri": "widgets/INGEMMET/INGEMMET_Buscar_CM/Widget",
+                        "version": "2.1",
+                        "id": "INGEMMET_Buscar_CM",
+                        "icon": "Content/widgets/INGEMMET/INGEMMET_Buscar_CM/images/icon.png",
+                        "name": "Buscar_CM",
+                        "label": "Búsqueda Derecho Minero",
+                        "config": "configs/INGEMMET/config_DM.json",
+                        "index": 1,
+						"openAtStart": true,
+                        "position": {
+                            "bootom": 50,
+                            "left": 100,
+                            "width": 300,
+                            "height": 290,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "uri": "widgets/INGEMMET/INGEMMET_BuscarDMUbigeo/Widget",
+                        "version": "2.1",
+                        "id": "BuscarDMUbigeo",
+                        "icon": "Content/widgets/INGEMMET/INGEMMET_BuscarDMUbigeo/images/icon.png",
+                        "name": "BuscarDMUbigeo",
+                        "label": "Reporte de Derecho Minero",
+                        "config": "configs/INGEMMET/config_DM.json",
+                        "index": 2,
+                        "position": {
+                            "top": 100,
+                            "height": 250,
+                            "left": 100,
+                            "width": 300,
+                            "zIndex": 140,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "uri": "widgets/INGEMMET/CorredorMinero/Widget",
+                        "version": "2.1",
+                        "id": "CorredorMineroWidget",
+                        "icon": "Content/widgets/INGEMMET/CorredorMinero/images/icon.png",
+                        "name": "CorredorMinero",
+                        "label": "DM en el Corredor Minero",
+                        "config": "configs/INGEMMET/config_DM.json",
+                        "index": 3,
+                        "position": {
+                            "top": 100,
+                            "height": 250,
+                            "left": 100,
+                            "width": 340,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+
+                    },
+                    {
+                        "uri": "widgets/INGEMMET/INGEMMET_ProyectosMineros/Widget",
+                        "version": "2.1",
+                        "id": "ProyectosMinerosWidget",
+                        "icon": "Content/widgets/INGEMMET/INGEMMET_ProyectosMineros/images/icon.png",
+                        "name": "ProyectosMineros",
+                        "label": "Buscar Proyectos Mineros",
+                        "config": "configs/INGEMMET/config_ProyectosMineros.json",
+                        "index": 4,
+                        "position": {
+                            "bottom": 100,
+                            "height": 380,
+                            "left": 100,
+                            "width": 500,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+
+                    }
+                    , {
+					"uri": "widgets/INGEMMET/INGEMMET_TabsPreevaluación/Widget",
+					"version": "2.1",
+					"id": "PreEvaluacionWidget",
+					"icon": "Content/widgets/INGEMMET/INGEMMET_TabsPreevaluación/images/icon.png",
+					"name": "PreEvaluacion",
+					"label": "PreEvaluacion en WGS84",	
+					"config": "configs/INGEMMET/config_PreEvaluacion.json",				
+					"index": 5,
+					"position": {
+						"top": 100,
+						"height": 380,
+						"left": 100,
+						"width": 330,
+						"zIndex": 200,
+						"relativeTo": "map"
+					}
+				}
+				, {
+					"uri": "widgets/INGEMMET/INGEMMET_DistribucionPagos/Widget",
+					"version": "2.1",
+					"id": "DistribucionPagosWidget",
+					"icon": "Content/widgets/INGEMMET/INGEMMET_DistribucionPagos/images/icon.png",
+					"name": "DistribucionPagos",
+					"label": "Distribución de Pagos de Vigencia",	
+					"config": "configs/INGEMMET/config_Distribucion.json",				
+					"index": 5,
+					"position": {
+						"bottom": 100,
+						"height": 355,
+						"left": 100,
+						"width": 500,
+						"zIndex": 200,
+						"relativeTo": "map"
+					}
+
+				}, {
+					"uri": "widgets/INGEMMET/INGEMMET_AnalisisRecursos/Widget",
+					"version": "2.1",
+					"id": "AnalisisRecursosWidget",
+					"icon": "Content/widgets/INGEMMET/INGEMMET_AnalisisRecursos/images/icon.png",
+					"name": "AnalisisRecursos",
+					"label": "Analisis de Recursos",	
+					"config": "configs/INGEMMET/config_AnalisisRecursos.json",
+					"index": 5,
+					"position": {
+						"top": 100,
+						"height": 320,
+						"left": 100,
+						"width": 255,
+						"zIndex": 200,
+						"relativeTo": "map"
+					}
+
+				}
+                ]
+
+            },
+            {
+                "label": "Herramientas",
+                "icon": "Content/widgets/INGEMMET/images/edit_find_replace.png",
+                "widgets": [
+                    {
+                        "name": "eSearch",
+                        "label": "Enhanced Search",
+                        "version": "2.1",
+                        "uri": "widgets/eSearch/Widget",
+                        "config": "configs/eSearch/config_Enhanced Search.json",
+                        "index": 1,
+                        "id": "widgets_eSearch_Widget_70",
+                        "icon": "Content/widgets/eSearch/images/icon.png?wab_dv=2.1"
+                    },
+                    {
+                        "name": "Bookmark",
+                        "label": "Marcador",
+                        "version": "2.1",
+                        "uri": "widgets/Bookmark/Widget",
+                        "index": 2,
+                        "id": "widgets_Bookmark_Widget_37",
+                        "icon": "Content/widgets/Bookmark/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "width": 200,
+                            "left": 200,
+                            "zIndex": 200,
+                            "relativeTo": "browser"
+                        }
+                    }
+                ],
+                "index": 2,
+                "id": "_68",
+                "tipo": "grupo",
+                "visible": true,
+
+                "panel": {
+                    "uri": "themes/INGEMMETTheme/panels/LaunchpadPanel/Panel",
+                    "position": {
+                        "relativeTo": "map"
+                    }
+                }
+            },
+            {
+                "label": "Varios",
+                "icon": "Content/widgets/INGEMMET/images/icon_tools.png",
+                "index": 3,
+                "id": "_69",
+                "tipo": "grupo",
+                "visible": true,
+                "panel": {
+                    "uri": "themes/INGEMMETTheme/panels/LaunchpadPanel/Panel",
+                    "position": {
+                        "relativeTo": "map"
+                    }
+                },
+                "widgets": [
+                    {
+                        "uri": "widgets/Legend/Widget",
+                        "version": "2.1",
+                        "id": "widgets_Legend_Widget_16",
+                        "icon": "Content/widgets/Legend/images/icon.png?wab_dv=2.1",
+                        "name": "Legend",
+                        "label": "Leyenda",
+                        "index": 0
+                    },
+                    {
+                        "uri": "widgets/LayerList/Widget",
+                        "version": "2.1",
+                        "id": "widgets_LayerList_Widget_17",
+                        "icon": "Content/widgets/LayerList/images/icon.png?wab_dv=2.1",
+                        "name": "LayerList",
+                        "label": "Listado de capas",
+                        "index": 1,
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Draw",
+                        "label": "Dibujar",
+                        "version": "2.1",
+                        "uri": "widgets/Draw/Widget",
+                        "index": 4,
+                        "id": "widgets_Draw_Widget_41",
+                        "icon": "Content/widgets/Draw/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Measurement",
+                        "label": "Medición",
+                        "version": "2.1",
+                        "uri": "widgets/Measurement/Widget",
+                        "index": 8,
+                        "id": "widgets_Measurement_Widget_51",
+                        "icon": "Content/widgets/Measurement/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    }
+
+                ]
+
+            },
+
+            {
+                "label": "Información",
+                "index": 4,
+                "tipo": "grupo",
+                "id": "_79",
+                "icon": "Content/widgets/INGEMMET/images/i_help.png",
+                "visible": true,
+                "zIndex": 110,
+                "panel": {
+                    "uri": "themes/INGEMMETTheme/panels/LaunchpadPanel/Panel",
+                    "position": {
+                        "relativeTo": "map"
+                    }
+                },
+
+                "widgets": [
+                    {
+                        "name": "Print",
+                        "label": "Imprimir",
+                        "version": "2.1",
+                        "uri": "widgets/Print/Widget",
+                        "index": 7,
+                        "id": "widgets_Print_Widget_54",
+                        "icon": "Content/widgets/Print/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "eBasemapGallery",
+                        "label": "Enhanced Basemap Gallery",
+                        "version": "2.1",
+                        "uri": "widgets/eBasemapGallery/Widget",
+                        "config": "configs/eBasemapGallery/config_Enhanced Basemap Gallery.json",
+                        "index": 12,
+                        "id": "widgets_eBasemapGallery_Widget_71",
+                        "icon": "Content/widgets/eBasemapGallery/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "StreetView",
+                        "label": "Google Street View",
+                        "version": "2.1",
+                        "uri": "widgets/StreetView/Widget",
+                        "config": "configs/StreetView/config_Google Street View.json",
+                        "index": 12,
+                        "id": "widgets_StreetView_Widget_72",
+                        "icon": "Content/widgets/StreetView/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "AddData",
+                        "label": "Añadir datos",
+                        "version": "2.1",
+                        "uri": "widgets/AddData/Widget",
+                        "index": 6,
+                        "id": "widgets_AddData_Widget_34",
+                        "icon": "Content/widgets/AddData/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "About",
+                        "label": "Acerca de",
+                        "version": "2.1",
+                        "uri": "widgets/About/Widget",
+                        "index": 5,
+                        "id": "widgets_About_Widget_33",
+                        "icon": "Content/widgets/About/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Analysis",
+                        "label": "Análisis",
+                        "version": "2.1",
+                        "uri": "widgets/Analysis/Widget",
+                        "index": 6,
+                        "id": "widgets_Analysis_Widget_35",
+                        "icon": "Content/widgets/Analysis/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "BatchAttributeEditor",
+                        "label": "Editor de atributos por lotes",
+                        "version": "2.1",
+                        "uri": "widgets/BatchAttributeEditor/Widget",
+                        "index": 6,
+                        "id": "widgets_BatchAttributeEditor_Widget_36",
+                        "icon": "Content/widgets/BatchAttributeEditor/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Chart",
+                        "label": "Gráfico",
+                        "version": "2.1",
+                        "uri": "widgets/Chart/Widget",
+                        "index": 6,
+                        "id": "widgets_Chart_Widget_38",
+                        "icon": "Content/widgets/Chart/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Directions",
+                        "label": "Indicaciones",
+                        "version": "2.1",
+                        "featureActions": [
+                            {
+                                "name": "DirectionFrom",
+                                "uri": "DirectionFromFeatureAction"
+                            },
+                            {
+                                "name": "DirectionTo",
+                                "uri": "DirectionToFeatureAction"
+                            }
+                        ],
+                        "uri": "widgets/Directions/Widget",
+                        "index": 6,
+                        "id": "widgets_Directions_Widget_39",
+                        "icon": "Content/widgets/Directions/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "DistrictLookup",
+                        "label": "Búsqueda de distrito",
+                        "version": "2.1",
+                        "IsController": false,
+                        "keepConfigAfterMapSwithched": false,
+                        "uri": "widgets/DistrictLookup/Widget",
+                        "index": 3,
+
+                        "id": "widgets_DistrictLookup_Widget_40",
+                        "icon": "Content/widgets/DistrictLookup/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Edit",
+                        "label": "Editar",
+                        "version": "2.1",
+                        "featureActions": [
+                            {
+                                "name": "Edit",
+                                "uri": "EditFeatureAction"
+                            }
+                        ],
+                        "uri": "widgets/Edit/Widget",
+                        "index": 6,
+                        "id": "widgets_Edit_Widget_42",
+                        "icon": "Content/widgets/Edit/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Filter",
+                        "label": "Filtro",
+                        "version": "2.1",
+                        "uri": "widgets/Filter/Widget",
+                        "index": 6,
+                        "id": "widgets_Filter_Widget_43",
+                        "icon": "Content/widgets/Filter/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "GeoLookup",
+                        "label": "Geobúsqueda",
+                        "version": "2.1",
+                        "uri": "widgets/GeoLookup/Widget",
+                        "index": 6,
+                        "id": "widgets_GeoLookup_Widget_44",
+                        "icon": "Content/widgets/GeoLookup/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Geoprocessing",
+                        "label": "Geoprocesamiento",
+                        "version": "2.1",
+                        "featureActions": [
+                            {
+                                "name": "ReceiveFeatureSet",
+                                "uri": "ReceiveFeatureSetAction"
+                            }
+                        ],
+                        "uri": "widgets/Geoprocessing/Widget",
+                        "index": 6,
+                        "id": "widgets_Geoprocessing_Widget_45",
+                        "icon": "Content/widgets/Geoprocessing/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "GroupFilter",
+                        "label": "Filtro de grupo",
+                        "version": "2.1",
+                        "keepConfigAfterMapSwithched": false,
+                        "uri": "widgets/GroupFilter/Widget",
+                        "index": 6,
+                        "id": "widgets_GroupFilter_Widget_46",
+                        "icon": "Content/widgets/GroupFilter/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "ImageMeasurement",
+                        "label": "Medición de imagen",
+                        "version": "2.1",
+                        "uri": "widgets/ImageMeasurement/Widget",
+                        "index": 6,
+                        "id": "widgets_ImageMeasurement_Widget_47",
+                        "icon": "Content/widgets/ImageMeasurement/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "NearMe",
+                        "label": "Cerca de mí",
+                        "version": "2.1",
+                        "IsController": false,
+                        "uri": "widgets/NearMe/Widget",
+                        "index": 8,
+                        "id": "widgets_NearMe_Widget_52",
+                        "icon": "Content/widgets/NearMe/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "ObliqueViewer",
+                        "label": "Visor oblicuo",
+                        "version": "1.4",
+                        "uri": "widgets/ObliqueViewer/Widget",
+                        "index": 8,
+                        "id": "widgets_ObliqueViewer_Widget_53",
+                        "icon": "Content/widgets/ObliqueViewer/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Query",
+                        "label": "Consulta",
+                        "version": "2.1",
+                        "uri": "widgets/Query/Widget",
+                        "index": 8,
+                        "id": "widgets_Query_Widget_55",
+                        "icon": "Content/widgets/Query/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "RelatedTableCharts",
+                        "label": "Gráficos de tablas relacionadas",
+                        "version": "2.1",
+                        "IsController": false,
+                        "uri": "widgets/RelatedTableCharts/Widget",
+                        "index": 8,
+                        "id": "widgets_RelatedTableCharts_Widget_56",
+                        "icon": "Content/widgets/RelatedTableCharts/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "ReportFeature",
+                        "label": "Informe de entidades",
+                        "version": "2.1",
+                        "uri": "widgets/ReportFeature/Widget",
+                        "index": 8,
+                        "id": "widgets_ReportFeature_Widget_57",
+                        "icon": "Content/widgets/ReportFeature/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "ReviewerDashboard",
+                        "label": "Panel de Reviewer",
+                        "version": "2.1",
+                        "uri": "widgets/ReviewerDashboard/Widget",
+                        "index": 8,
+                        "id": "widgets_ReviewerDashboard_Widget_58",
+                        "icon": "Content/widgets/ReviewerDashboard/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Select",
+                        "label": "Seleccionar",
+                        "version": "2.1",
+                        "uri": "widgets/Select/Widget",
+                        "index": 8,
+                        "id": "widgets_Select_Widget_60",
+                        "icon": "Content/widgets/Select/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Stream",
+                        "label": "Flujo",
+                        "version": "2.1",
+                        "uri": "widgets/Stream/Widget",
+                        "index": 9,
+                        "id": "widgets_Stream_Widget_63",
+                        "icon": "Content/widgets/Stream/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+
+                    {
+                        "name": "IncidentAnalysis",
+                        "label": "Análisis de incidentes",
+                        "version": "2.1",
+                        "featureActions": [
+                            {
+                                "name": "SetAsIncident",
+                                "uri": "SetAsIncident"
+                            }
+                        ],
+                        "uri": "widgets/IncidentAnalysis/Widget",
+                        "index": 6,
+                        "id": "widgets_IncidentAnalysis_Widget_48",
+                        "position": {
+                            "relativeTo": "map"
+                        },
+                        "icon": "Content/widgets/IncidentAnalysis/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "InfoSummary",
+                        "label": "Resumen de información",
+                        "version": "2.1",
+                        "IsController": false,
+                        "uri": "widgets/InfoSummary/Widget",
+                        "index": 7,
+                        "id": "widgets_InfoSummary_Widget_49",
+                        "position": {
+                            "relativeTo": "map"
+                        },
+                        "icon": "Content/widgets/InfoSummary/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "SituationAwareness",
+                        "label": "Conocimiento de la situación",
+                        "version": "2.1",
+                        "uri": "widgets/SituationAwareness/Widget",
+                        "index": 8,
+                        "id": "widgets_SituationAwareness_Widget_62",
+                        "position": {
+                            "relativeTo": "map"
+                        },
+                        "icon": "Content/widgets/SituationAwareness/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Summary",
+                        "label": "Resumen",
+                        "version": "2.1",
+                        "uri": "widgets/Summary/Widget",
+                        "index": 9,
+                        "id": "widgets_Summary_Widget_64",
+                        "position": {
+                            "relativeTo": "map"
+                        },
+                        "icon": "Content/widgets/Summary/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "Swipe",
+                        "label": "Swipe",
+                        "version": "2.1",
+                        "uri": "widgets/Swipe/Widget",
+                        "index": 10,
+                        "id": "widgets_Swipe_Widget_65",
+                        "position": {
+                            "relativeTo": "map"
+                        },
+                        "icon": "Content/widgets/Swipe/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "TimeSlider",
+                        "label": "Control deslizante de tiempo",
+                        "version": "2.1",
+                        "uri": "widgets/TimeSlider/Widget",
+                        "index": 11,
+                        "id": "widgets_TimeSlider_Widget_66",
+                        "position": {
+                            "relativeTo": "map"
+                        },
+                        "icon": "Content/widgets/TimeSlider/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "eLocate",
+                        "label": "Enhanced Locate",
+                        "version": "2.1",
+                        "IsController": false,
+                        "uri": "widgets/eLocate/Widget",
+                        "config": "configs/eLocate/config_Enhanced Locate.json",
+                        "index": 12,
+                        "id": "widgets_eLocate_Widget_73",
+                        "icon": "Content/widgets/eLocate/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    },
+                    {
+                        "name": "AddData",
+                        "label": "Añadir datos_2",
+                        "version": "2.1",
+                        "uri": "widgets/AddData/Widget",
+                        "config": "configs/AddData/config_Añadir datos_2.json",
+                        "index": 13,
+                        "id": "widgets_AddData_Widget_75",
+                        "icon": "Content/widgets/AddData/images/icon.png?wab_dv=2.1",
+                        "position": {
+                            "top": 100,
+                            "height": 200,
+                            "left": 100,
+                            "width": 200,
+                            "zIndex": 200,
+                            "relativeTo": "map"
+                        }
+                    }
+
+                ]
+            }
+        ]
+    },
+    "mobileLayout": {
+        "widgetOnScreen": {
+            "widgets": [
+                {
+                    "name": "LocalLayer",
+                    "label": "Widget Capa Local",
+                    "version": "2.0",
+                    "uri": "widgets/LocalLayer/Widget",
+                    "config": "configs/LocalLayer/config_Widget Capa Local.json"
+                },
+                {
+                    "uri": "themes/INGEMMETTheme/widgets/AnchorBarController/Widget",
+                    "position": {
+                        "bottom": 0,
+                        "height": 40,
+                        "width": "100%",
+                        "zIndex": 0,
+                        "relativeTo": "map"
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "uri": "themes/INGEMMETTheme/widgets/Header/Widget",
+                    "position": {
+                        "left": 0,
+                        "right": 0,
+                        "top": 0,
+                        "height": 46,
+                        "relativeTo": "map"
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "uri": "widgets/Search/Widget",
+                    "position": {
+                        "left": 10,
+                        "top": 10,
+                        "right": 10,
+                        "zIndex": 0,
+                        "relativeTo": "map"
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "uri": "widgets/OverviewMap/Widget",
+                    "position": {
+                        "right": 0,
+                        "bottom": 0
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "uri": "widgets/ZoomSlider/Widget",
+                    "position": {
+                        "right": 10,
+                        "bottom": 160,
+                        "relativeTo": "map"
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "uri": "widgets/HomeButton/Widget",
+                    "position": {
+                        "right": 10,
+                        "bottom": 75,
+                        "relativeTo": "map"
+                    }
+                },
+                {
+                    "uri": "widgets/MyLocation/Widget",
+                    "inPanel": false,
+                    "position": {
+                        "right": 10,
+                        "bottom": 115,
+                        "relativeTo": "map"
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "uri": "widgets/AttributeTable/Widget",
+                    "version": "2.1",
+                    "position": {
+                        "left": 10,
+                        "bottom": 70,
+                        "relativeTo": "map"
+                    },
+                    "closeable": true
+                },
+                {
+                    "uri": "widgets/Coordinate/Widget",
+                    "position": {
+                        "left": 5,
+                        "bottom": 5
+                    }
+                },
+                {
+                    "uri": "widgets/Scalebar/Widget",
+                    "position": {
+                        "left": 50,
+                        "bottom": 70,
+                        "relativeTo": "map"
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "uri": "widgets/Splash/Widget",
+                    "visible": true,
+                    "position": {
+                        "relativeTo": "browser"
+                    },
+                    "version": "2.1"
+                },
+                {
+                    "position": {
+                        "left": 10,
+                        "bottom": 195,
+                        "relativeTo": "map"
+                    }
+                },
+                {
+                    "position": {
+                        "left": 10,
+                        "bottom": 155,
+                        "relativeTo": "map"
+                    }
+                },
+                {
+                    "position": {
+                        "left": 10,
+                        "bottom": 115,
+                        "relativeTo": "map"
+                    }
+                }
+
+            ]
+        },
+        "map": {
+            "position": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+            }
+        },
+        "widgetPool": {
+            "panel": {
+                "uri": "themes/INGEMMETTheme/panels/LaunchpadPanel/Panel"
+            }
+        }
+    },
+    "loadingPage": {
+        "backgroundColor": "#056896",
+        "backgroundImage": {
+            "visible": false
+        },
+        "loadingGif": {
+            "visible": true,
+            "uri": "/webappbuilder/apps/6/configs/loading/images/predefined_loading_1.gif",
+            "width": 58,
+            "height": 29
+        }
+    },
+    "wabVersion": "2.1",
+    "isTemplateApp": true,
+    "isWebTier": false,
+    "httpProxy": {
+        "useProxy": true,
+        "url": "/proxy.js"
+    }
+}

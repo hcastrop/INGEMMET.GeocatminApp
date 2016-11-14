@@ -1,0 +1,44 @@
+{
+  "layers": {
+    "layer": [
+		{"type": "Dynamic","name": "Catastro Minero","url": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer","opacity": 1,"visible": false,"imageformat": "png8","autorefresh": 0,"imagedpi": 96,"disableclientcaching": false,"minScale": "","maxScale": "","hidelayers": "","definitionQueries": "{}"},
+
+      {
+        "type": "Dynamic",
+        "name": "Limite Politico Administrativo",
+        "url": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTOGRAFIA_DEMARCACION_WGS84/MapServer",
+        "opacity": 0.6,
+        "visible": true,
+        "imageformat": "png8",
+        "autorefresh": 0,
+        "popup": {
+          "infoTemplates": [
+            {
+              "layerId": 0,
+              "title": "{NM_DEPA}",
+              "fieldInfos": [
+                {
+                  "fieldName": "CD_DEPA",
+                  "label": "CD_DEPA",
+                  "visible": true
+                },
+                {
+                  "fieldName": "NM_DEPA",
+                  "label": "NM_DEPA",
+                  "visible": true
+                }
+              ],
+              "showAttachments": false
+            }
+          ]
+        },
+        "imagedpi": 96,
+        "disableclientcaching": false,
+        "minScale": "",
+        "maxScale": "",
+        "hidelayers": null,
+        "definitionQueries": "{}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+/*@import url("soria.css");
+@import url("soriaGrid.css");
+@import url("Grid.css");*/
+
+ #myGrid {
+    font-size: 11px !important;
+    font-family: Arial Narrow !important;
+    padding: 1px 1px 1px 1px !important;
+    word-wrap: normal !important;
+}
+.dojoxGrid .dojoxGridCell {
+       padding: 1px 1px 1px 1px !important;
+}
+
+.tabchildResultados
+{
+   /* background:#ff0000;*/
+   display: none !important;
+}

@@ -1,0 +1,38 @@
+<div class="divPrincipal">
+    <div class="Tableubigeo">
+        <div class="ubigeoHeading">
+            <div class="ubigeoCell" id="lblRegion">
+                <p>Regi&oacuten</p>
+            </div>
+            <div class="ubigeoCell oculto" id="lblProvincia">
+                <p>Provincia</p>
+            </div>
+            <div class="ubigeoCell oculto" id="lblDistrito">
+                <p>Distrito</p>
+            </div>
+            <div class="ubigeoCell" id="lblCuadrangulo">
+                <p>Cuadr&aacute;ngulo</p>
+            </div>
+        </div>
+        <div class="ubigeoRow">
+            <div class="ubigeoCell" id="lblLstRegion">
+                <select data-dojo-type="dijit/form/MultiSelect" id="lstDepartamento" name="lstDepartamento" size="6" class="combos"></select>
+            </div>
+            <div class="ubigeoCell oculto" id="lblLstProvincia">
+                <select data-dojo-type="dijit/form/MultiSelect" id="lstProvincia" name="lstProvincia" size="6" class="combos"></select>
+
+            </div>
+            <div class="ubigeoCell oculto" id="lblLstDistrito">
+                <select data-dojo-type="dijit/form/MultiSelect" id="lstDistrito" name="lstDistrito" size="6" class="combos"></select>
+            </div>
+            <div class="ubigeoCell" id="lblLstCuadrangulo">
+                <select data-dojo-type="dijit/form/MultiSelect" id="lstCuadrangulo" name="lstCuadrangulo" size="6" class="combos"></select>
+            </div>
+        </div>
+    </div>
+
+    <div data-dojo-attach-point="drawBox" data-dojo-type="jimu/dijit/DrawBox" data-dojo-props='types:["polygon"],showClear:false' style="margin-top: 5px; display: inline-table;"></div>
+
+
+    
+</div>

@@ -1,0 +1,296 @@
+{
+	"Analisis":[
+      {"capa":"Catastro Minero", 
+		"registros":0,
+		"criterio":" ",
+            "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer/0",
+             "layout":  {
+                  "cells": [
+							 {"field": "FEC_DENU: DateFormat(datePattern:'d MMMM  yyyy.', selector:'date')","name": "Fecha...","width": "180px"},
+							 {"field": "'http://www.ingemmet.gob.pe/sidemcat?CodDM='||CODIGOU || '&TipoDoc=0'","name": "Link","width": "60px"},
+							 {"field": "'http://www.ingemmet.gob.pe/igm-sidemcat-portlet/ver-resumen?pCodigo_DM='||CODIGOU","name": "Reporte","width": "60px"},
+							 {"field": "CODIGOU","name": "C&oacute;digo","width": "100px"},
+							 {"field": "CONCESION","name": "Nombre","width": "150px"},
+							 {"field": "TIT_CONCES","name": "Titular","width": "200px"},
+							 {"field": "HASDATUM","name": "Has.","width": "60px"},
+							 {"field": "D_ESTADO","name": "Estado","width": "150px"},
+							 {"field": "FEC_DENU","name": "Fech.Form.","width": "80px"},
+							 {"field": "HOR_DENU","name": "Hora Form.","width": "80px"},
+							 {"field": "TIPO_EX","name": "Tipo","width": "100px"},
+							 {"field": "CARTA","name": "Carta","width": "50px"},
+							 {"field": "ZONA","name": "Zona","width": "40px"},
+							 {"field": "RESOL_TIT","name": "Resoluci&oacute;n T&iacute;tulo","width": "120px"},
+							 {"field": "FECHA_RESOL_TIT","name": "Fech. Res.T&iacute;tulo","width": "120px"},
+							 {"field": "DESIC_RESOL_TIT","name": "Desici&oacute;n Titulaci&oacute;n","width": "120px"},
+							 {"field": "RESOL_EXTI","name": "Resoluci&oacute;n Extinci&oacute;n","width": "120px"},
+							 {"field": "FECHA_RESOL_EXTI","name": "Fech. Res.Extinci&oacute;n","width": "120px"},
+							 {"field": "DESIC_RESOL_EXT","name": "Desici&oacute;n Extinci&oacute;n","width": "150px"},
+							 {"field": "UBICA_EXP","name": "Ubicaci&oacute;n Expediente","width": "200px"},
+							 {"field": "CALIFICA","name": "Calificaci&oacute;n","width": "120px"},
+							 {"field": "SUSTANCIA","name": "Sustancia","width": "120px"},
+							 {"field": "DEPA","name": "Regi&oacute;n","width": "120px"},
+							 {"field": "PROVI","name": "Provincia","width": "120px"},
+							 {"field": "DISTRI","name": "Distrito","width": "140px"},
+							 {"field": "DIRECCION","name": "Direcci&oacute;n","width": "200px"}
+                  ]
+            }
+      }, 
+    
+    {"capa":"Zona Urbana y Expansi&oacute;n", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/WGS84/WEBGIS_AREA_RESERVADA_BUSQUEDA/MapServer/1",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "ObjectId","width": "100px"},
+                            {"field": "CODIGO","name": "C&oacute;digo","width": "100px"},
+                            {"field": "NOMBRE","name": "Nombre","width": "100px"},
+                            {"field": "CATEGORI","name": "Categor&iacute;a","width": "100px"},
+                            {"field": "ZONA","name": "Zona","width": "100px"},
+                            {"field": "HAS","name": "Has.","width": "100px"},
+                            {"field": "ZONEX","name": "Zona","width": "100px"},
+                            {"field": "OBS","name": "Obsercaciones","width": "100px"},
+                            {"field": "ARCHIVO","name": "Archivo","width": "100px"},
+                            {"field": "FEC_ING","name": "Fecha Ingreso","width": "100px"},
+                            {"field": "ENTIDAD","name": "Entidad","width": "100px"},
+                            {"field": "USO","name": "Uso","width": "100px"},
+                            {"field": "EST_GRAF","name": "Estado Graficaci&oacute;n","width": "100px"},
+                            {"field": "LEYENDA","name": "Leyenda","width": "100px"},
+                            {"field": "NM_URBA","name": "Nombre","width": "100px"},
+                            {"field": "TP_URBA","name": "Tipo","width": "100px"},
+                            {"field": "ORDENANZA","name": "Ordenanza","width": "100px"},
+                            {"field": "ETIQUETA","name": "Etiqueta","width": "100px"}
+
+                  ]
+            }
+	}, 
+    {"capa":"&Aacute;reas Reservadas", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/WGS84/WEBGIS_AREA_RESERVADA_BUSQUEDA/MapServer/0",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "ObjectId","width": "100px"},
+                            {"field": "CODIGO","name": "C&oacute;digo","width": "100px"},
+                            {"field": "NOMBRE","name": "Nombre","width": "100px"},
+                            {"field": "NM_RESE","name": "Nombre Reserva","width": "100px"},
+                            {"field": "TP_RESE","name": "Tipo","width": "100px"},
+                            {"field": "CATEGORI","name": "Categoria","width": "100px"},
+                            {"field": "CLASE","name": "Clase","width": "100px"},
+                            {"field": "ZONA","name": "Zona","width": "100px"},
+                            {"field": "TITULAR","name": "Titular","width": "100px"},
+                            {"field": "HAS","name": "Has","width": "100px"},
+                            {"field": "ZONEX","name": "Zone","width": "100px"},
+                            {"field": "OBS","name": "Obsercaci&oacute;n","width": "100px"},
+                            {"field": "NORMA","name": "Norma","width": "100px"},
+                            {"field": "ARCHIVO","name": "Archivo","width": "100px"},
+                            {"field": "FEC_ING","name": "Fecha Ingreso","width": "100px"},
+                            {"field": "ENTIDAD","name": "Entidad","width": "100px"},
+                            {"field": "USO","name": "Uso","width": "100px"},
+                            {"field": "EST_GRAF","name": "Estado Graficaci&oacute;n","width": "100px"},
+                            {"field": "LEYENDA","name": "Leyenda","width": "100px"}
+                  ]
+            }
+	}, 
+    {"capa":"Demarcaci&oacute;n Pol&iacute;tica", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTOGRAFIA_DEMARCACION_WGS84/MapServer",
+        "layout":  {
+                  "cells": [
+				            {"field": "OBJECTID","name": "Objectid","width": "100px"},
+                            {"field": "CD_DEPA","name": "Cd_Depa","width": "100px"},
+                            {"field": "NM_DEPA","name": "Departemento","width": "100px"},
+                            {"field": "CD_PROV","name": "Cd_Prov","width": "100px"},
+                            {"field": "NM_PROV","name": "Provincia","width": "100px"},
+                            {"field": "CD_DIST","name": "Cd_Dist","width": "100px"},
+                            {"field": "NM_DIST","name": "Distrito","width": "100px"},
+                            {"field": "CAP_DIST","name": "Capital Distrito","width": "100px"},
+                            {"field": "CAT_CAP","name": "Capital ","width": "100px"}
+                  ]
+            }
+	},
+    {"capa":"Geolog&iacute;a Econ&oacute;mica", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_METALOGENETICO/MapServer/0",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "Objectid","width": "100px"},
+                            {"field": "UNIDAD","name": "Unidad","width": "100px"},
+                            {"field": "CALIDAD","name": "Calidad","width": "100px"},
+                            {"field": "TIPO","name": "Tipo","width": "100px"},
+                            {"field": "ESTADO","name": "Estado","width": "100px"},
+                            {"field": "CATEGORIA","name": "Categor&iacute;a","width": "100px"},
+                            {"field": "REF_WEB","name": "Web","width": "100px"},
+                            {"field": "DPTO","name": "Departamento","width": "100px"},
+                            {"field": "FRANJA_METALOG","name": "Franja Metalogen&eacute;tica","width": "100px"},
+                            {"field": "SUBTIPO_YACIM","name": "Subtipo Yacimiento","width": "100px"},
+                            {"field": "E_PRINCIPAL","name": "Elemento Principal","width": "100px"},
+                            {"field": "E_ACOMPANNANTE","name": "Elemento Acompa&Ntilde;Ante","width": "100px"},
+                            {"field": "FOTO","name": "Foto","width": "100px"},
+                            {"field": "CIM","name": "Cim","width": "100px"}
+                  ]
+            }
+	},
+    {"capa":"Certificaci&oacute;n Ambiental", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/ArcGIS/rest/services/SERV_CERTIFICADO_AMBIENTAL/MapServer/0",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "Objectid","width": "100px"},
+                            {"field": "NOMBRE","name": "Nombre","width": "100px"},
+                            {"field": "PROYECTO","name": "Proyecto","width": "100px"},
+                            {"field": "TIPO_CERTIFICACION","name": "Tipo Certificaci&oacute;n","width": "100px"},
+                            {"field": "SITUACION","name": "Situacion","width": "100px"},
+                            {"field": "RD_NUMERO","name": "N&uacute;mero","width": "100px"},
+                            {"field": "RD_FECHA","name": "Fecha RD","width": "100px"},
+                            {"field": "TC_ESTCER","name": "Certificaci&oacute;n","width": "100px"},
+                            {"field": "LINK","name": "Link","width": "100px"}
+                  ]
+            }
+	},
+    {"capa":"Pueblos", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTOGRAFIA_BASE_WGS84/MapServer/14",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "Objectid","width": "100px"},
+                            {"field": "UBIGEO","name": "UBIGEO","width": "100px"},
+                            {"field": "ARNOMBRE","name": "Nombre","width": "100px"}
+                  ]
+            }
+	},
+    {"capa":"Rocas y Minerales Industriales", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/ArcGIS/rest/services/SERV_ROCAS_MINERALES_INDUSTRIALES/MapServer/0",
+        "layout":  {
+                  "cells": [
+				            {"field": "OBJECTID","name": "Objectid","width": "100px"},
+                            {"field": "CODIGO","name": "C&Oacute;digo","width": "100px"},
+                            {"field": "NOMBRE","name": "Nombre","width": "100px"},
+                            {"field": "NORTE","name": "Norte","width": "100px"},
+                            {"field": "ESTE","name": "Este","width": "100px"},
+                            {"field": "UNIDAD_ESTRATIGRAFICA","name": "Unidad","width": "100px"},
+                            {"field": "EDAD_GEOLOGICA","name": "Edad","width": "100px"},
+                            {"field": "LONGITUD","name": "Longitud","width": "100px"},
+                            {"field": "LATITUD","name": "Latitud","width": "100px"},
+                            {"field": "NOMBRE_CIENTIFICO","name": "Nombre Cient&iacute;fico","width": "100px"},
+                            {"field": "NOMBRE_COMERCIAL","name": "Mineral","width": "100px"},
+                            {"field": "TIPO","name": "Tipo","width": "100px"}
+                  ]
+            }
+	},
+	{"capa":"Geoqu&iacute;mica", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_GEOQUIMICA/MapServer/0",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "ObjectId","width": "100px"},
+                            {"field": "CODIGO","name": "C&oacute;digo","width": "100px"},
+                            {"field": "PROYECTO","name": "Proyecto","width": "100px"},
+                            {"field": "ANNO","name": "A&ntilde;o )","width": "100px"},
+                            {"field": "AU_PPB","name": "Au(ppb)","width": "100px"},
+                            {"field": "AU_PPM","name": "Au(ppm)","width": "100px"},
+                            {"field": "AL_PORCENTAJE","name": "Aluminio(%)","width": "100px"},
+                            {"field": "B_PPM","name": "Boro(ppm)","width": "100px"},
+                            {"field": "BA_PPM","name": "Bario(ppm)","width": "100px"},
+                            {"field": "CA_PORCENTAJE","name": "Calcio(ppm)","width": "100px"},
+                            {"field": "CR_PPM","name": "Cromo(ppm)","width": "100px"},
+                            {"field": "CU_PPM","name": "Cobre(ppm)","width": "100px"},
+                            {"field": "FE_PORCENTAJE","name": "Hierro(%)","width": "100px"},
+                            {"field": "K_PORCENTAJE","name": "Potasio(%)","width": "100px"},
+                            {"field": "LI_PPM","name": "Litio(ppm)","width": "100px"},
+                            {"field": "MG_PORCENTAJE","name": "Magnesio(%)","width": "100px"},
+                            {"field": "MN_PPM","name": "Manganeso(ppm)","width": "100px"},
+                            {"field": "NA_PORCENTAJE","name": "Sodio(%)","width": "100px"},
+                            {"field": "P_PPM","name": "Fosforo(ppm)","width": "100px"},
+                            {"field": "SR_PPM","name": "Estroncio(ppm)","width": "100px"},
+                            {"field": "TI_PORCENTAJE","name": "Titanio(%)","width": "100px"},
+                            {"field": "V_PPM","name": "Vanadio(ppm)","width": "100px"},
+                            {"field": "ZN_PPM","name": "Zinc(ppm)","width": "100px"},
+                            {"field": "ZR_PPM","name": "Circonio(ppm)","width": "100px"},
+                            {"field": "AG_PPM","name": "Plata(ppm)","width": "100px"},
+                            {"field": "AS_PPM","name": "Arsenico(ppm)","width": "100px"},
+                            {"field": "BE_PPM","name": "Berilio(ppm)","width": "100px"},
+                            {"field": "BI_PPM","name": "Bismuto(ppm)","width": "100px"},
+                            {"field": "CD_PPM","name": "Cadmio(ppm)","width": "100px"},
+                            {"field": "CE_PPM","name": "Cesio(ppm)","width": "100px"},
+                            {"field": "CO_PPM","name": "Cobalto(ppm)","width": "100px"},
+                            {"field": "CS_PPM","name": "Cesio(ppm)","width": "100px"},
+                            {"field": "GA_PPM","name": "Galio(ppm)","width": "100px"},
+                            {"field": "GE_PPM","name": "Germanio(ppm)","width": "100px"},
+                            {"field": "HF_PPM","name": "Hafnio(ppm)","width": "100px"},
+                            {"field": "HG_PPM","name": "Mercurio(ppm)","width": "100px"},
+                            {"field": "IN_PPM","name": "Indio(ppm)","width": "100px"},
+                            {"field": "LA_PPM","name": "Lantano(ppm)","width": "100px"},
+                            {"field": "LU_PPM","name": "Lutesio(ppm)","width": "100px"},
+                            {"field": "MO_PPM","name": "Molibdeno(ppm)","width": "100px"},
+                            {"field": "NB_PPM","name": "Niobio(ppm)","width": "100px"},
+                            {"field": "NI_PPM","name": "Niquel(ppm)","width": "100px"},
+                            {"field": "PB_PPM","name": "Plomo(ppm)","width": "100px"},
+                            {"field": "RB_PPM","name": "Rubidio(ppm)","width": "100px"},
+                            {"field": "SB_PPM","name": "Antimonio(ppm)","width": "100px"},
+                            {"field": "SC_PPM","name": "Sc(ppm)","width": "100px"},
+                            {"field": "SE_PPM","name": "Selenio(ppm)","width": "100px"},
+                            {"field": "SN_PPM","name": "Esta&ntilde;o(ppm)","width": "100px"},
+                            {"field": "TA_PPM","name": "Tantalio(ppm)","width": "100px"},
+                            {"field": "TE_PPM","name": "Telurio(ppm)","width": "100px"},
+                            {"field": "TH_PPM","name": "Torio(ppm)","width": "100px"},
+                            {"field": "TL_PPM","name": "Talio(ppm)","width": "100px"},
+                            {"field": "U_PPM","name": "Uranio(ppm)","width": "100px"},
+                            {"field": "W_PPM","name": "Wolframio(ppm)","width": "100px"},
+                            {"field": "Y_PPM","name": "Itrio(ppm)","width": "100px"}
+						]
+            }
+        
+    },
+	{"capa":"Franjas Metalogen&eacute;ticas", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_METALOGENETICO/MapServer/2",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "Objectid","width": "100px"},
+                            {"field": "DESCRIPCION","name": "Descripci&oacute;n","width": "100px"},
+                            {"field": "FRANJA","name": "Franja","width": "100px"}
+                  ]
+            }
+        
+    },
+	{"capa":"Boletines", 
+		"registros":0,
+		"criterio":" ",
+        "url":"http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_BOLETINES/MapServer/0",
+        "layout":  {
+                  "cells": [
+                            {"field": "OBJECTID","name": "Objectid","width": "100px"},
+                            {"field": "NUMERO_BOL","name": "N&uacute;mero","width": "100px"},
+                            {"field": "TITULO","name": "T&iacute;tulo","width": "100px"},
+                            {"field": "LINK","name": "Link","width": "100px"},
+                            {"field": "DETALLES","name": "Detalles","width": "100px"},
+                            {"field": "AUTOR","name": "Autor","width": "100px"},
+                            {"field": "LINK_1","name": "Link","width": "100px"}
+
+                  ]
+            }
+        
+    }
+
+],
+
+  "urlRegion": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/0",
+  "camposRegion": "CD_DEPA",
+  "urlProvincia": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/1",
+  "camposProvincia": "CD_PROV",
+  "urlDistrito": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/2",
+  "camposDistrito": "CD_DIST",
+  "urlCuadrangulo": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_BOLETINES/MapServer/3",
+  "camposCuadrangulo": "QDR_CODIGO_ALFANUMERICO",
+  "CapaBuscar": "Catastro Minero",
+  "CapaCampoDF": "UBIGEO"
+}

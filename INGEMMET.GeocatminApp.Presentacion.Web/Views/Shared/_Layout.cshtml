@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <title>.:: GEOCATMIN ::.</title>
+    <link rel="shortcut icon" href="~/Content/images/shortcut.png">
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css"  href="@Url.Content("~/Content/jimu.js/css/jimu-ie.css")" />
+    <![endif]-->
+    <link href="@Url.Content("~/Content/base.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/configs/loading/loading.css")" rel="stylesheet" type="text/css" />
+</head>
+<body class="claro jimu-main-font">
+    @RenderBody()
+
+    @Scripts.Render("~/Base/js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

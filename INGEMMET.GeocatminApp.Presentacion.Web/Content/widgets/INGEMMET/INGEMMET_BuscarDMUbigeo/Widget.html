@@ -1,0 +1,40 @@
+<div class="divPrincipal">
+    <div id="ubigeo" class="tabcontent">
+        <div class="Tableubigeo" id="divCMUbigeo">
+            <div class="ubigeoHeading">
+                <div id="_lblRegion_CMUbigeo" class="ComboDM ubigeoCell "><label>Regi&oacuten</label></div>
+                <div id="_lblProvincia_CMUbigeo" class="ComboDM oculto ubigeoCell"><label>Provincia</label></div>
+                <div id="_lblDistrito_CMUbigeo" class="ComboDM oculto ubigeoCell"><label>Distrito</label></div>
+                <div id="_lblCuadrangulo_CMUbigeo" class="ComboDM ubigeoCell"><label>Cuadr&aacute;ngulo</label></div>
+            </div>
+            <div class="ubigeoRow">
+                <div id="_lstRegion_CMUbigeo" class="ubigeoCell">
+                    <input data-dojo-type="dijit/form/ComboBox" id="lstRegion_CMUbigeo" name="lstRegion_CMUbigeo" data-dojo-props="placeHolder: '--Seleccione--'" class="ComboDM">
+                </div>
+                <div id="_lstProvincia_CMUbigeo" class="ubigeoCell oculto">
+                    <input data-dojo-type="dijit/form/ComboBox" id="lstProvincia_CMUbigeo" name="lstProvincia_CMUbigeo" data-dojo-props="placeHolder: '--Seleccione--'" class="ComboDM ">
+                </div>
+                <div id="_lstDistrito_CMUbigeo" class="ubigeoCell oculto">
+                    <input data-dojo-type="dijit/form/ComboBox" id="lstDistrito_CMUbigeo" name="lstDistrito_CMUbigeo" data-dojo-props="placeHolder: '--Seleccione--'" class="ComboDM">
+                </div>
+                <div id="_lstCuadrangulo_CMUbigeo" class="ubigeoCell">
+                    <input data-dojo-type="dijit/form/ComboBox" id="lstCuadrangulo_CMUbigeo" name="lstCuadrangulo_CMUbigeo" data-dojo-props="placeHolder: '--Seleccione--'" class="ComboDM">
+                </div>
+
+            </div>
+            <!--Check de Corredor Minero -->
+
+        </div>
+        <div class="divCorredorMinero">
+            <input id="chkCorredorMinero" name="chkCorredorMinero" data-dojo-type="dijit/form/CheckBox" onchange="_thisDMUbigeo.fnShowCorredorMinero()" /> <label for="chkCorredorMinero">Derechos Mineros del Corredor Minero</label>
+        </div>
+
+        <div class="oculto" id="divResumen_CMUbigeo">
+            <table id="ResumenGridUbigeo" dojotype="dojox.grid.DataGrid" rowsperpage="10" autoheight="true" style="width: 191px; height: 132px; margin-left: auto; margin-right: auto;"></table>
+
+        </div>
+    </div>
+    <!--
+    <div data-dojo-attach-point="drawBox" data-dojo-type="jimu/dijit/DrawBox" data-dojo-props='types:["point","polyline","polygon"],showClear:false' style="margin-top: 5px; display: inline-table;"></div>
+        -->
+</div>

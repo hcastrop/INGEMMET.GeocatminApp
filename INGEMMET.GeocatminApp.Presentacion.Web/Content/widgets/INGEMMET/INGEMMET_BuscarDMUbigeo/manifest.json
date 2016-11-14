@@ -1,0 +1,13 @@
+{
+  "name": "BuscarDMUbigeo_INGEMMET",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "1.3",
+  "wabVersion": "1.3",
+  "author": "Hugo Castro",
+  "description": "Listado de Derechos Mineros por UBIGEO",
+  "copyright": "INGEMMET",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  
+}

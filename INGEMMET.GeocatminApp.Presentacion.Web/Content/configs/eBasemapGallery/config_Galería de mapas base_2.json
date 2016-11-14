@@ -1,0 +1,227 @@
+{
+  "basemapGallery": {
+    "basemaps": [
+      {
+        "layers": [
+          {
+            "id": "World_Street_Map_8421",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Mapa de calles mundial"
+          }
+        ],
+        "title": "Calles",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/04e903465a3e497aa669212e08927cee/info/thumbnail/world_street_map.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Imagery_2017",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Imágenes del mundo"
+          }
+        ],
+        "title": "Imágenes",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/5719e4cae1464512811a6da59003b165/info/thumbnail/tempimagery.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Imagery_6611",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Imágenes del mundo"
+          },
+          {
+            "id": "World_Boundaries_and_Places_1145",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Fronteras mundiales y lugares",
+            "isReference": true
+          }
+        ],
+        "title": "Imágenes con etiquetas",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/3027a41ed46d4a9b915590d14fecafc0/info/thumbnail/imagery_labels.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Light_Gray_Base_1486",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Base Lona gris claro mundial"
+          },
+          {
+            "id": "World_Light_Gray_Reference_8656",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Referencia gris claro mundial",
+            "isReference": true
+          }
+        ],
+        "title": "Lona gris claro",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/79f66c69319e4408a8388c7eb22941a1/info/thumbnail/light_gray_canvas.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "layer0",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Base Lona gris oscuro mundial"
+          },
+          {
+            "id": "World_Dark_Gray_Reference_8618",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Referencia gris oscuro mundial",
+            "isReference": true
+          }
+        ],
+        "title": "Lona gris oscuro",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/93bcc427e6584a40966a8bc6401b54c8/info/thumbnail/DGCanvasBase.png",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "NatGeo_World_Map_2536",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Mapa mundial National Geographic"
+          }
+        ],
+        "title": "National Geographic",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/7ec6f7c55cf6478596435f2d501834fa/info/thumbnail/natgeo.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "Ocean_Basemap_2089",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Base de océanos mundiales"
+          },
+          {
+            "id": "World_Ocean_Reference_1261",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Reference/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Referencia de océanos mundiales",
+            "isReference": true
+          }
+        ],
+        "title": "Océanos",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/f9498c1f95714efabb626125cb2bb04a/info/thumbnail/tempoceans.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "visibility": true,
+            "opacity": 1,
+            "type": "OpenStreetMap"
+          }
+        ],
+        "title": "OpenStreetMap",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/d415dff75dd042258ceda46f7252ad70/info/thumbnail/temposm.jpg",
+        "spatialReference": {
+          "wkid": "102100"
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "World_Terrain_Base_3",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Base de terreno mundial"
+          },
+          {
+            "id": "World_Reference_Overlay_5790",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Referencia mundial",
+            "isReference": true
+          }
+        ],
+        "title": "Terreno con etiquetas",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/532c8cc75f414ddebc5d665ba00015ca/info/thumbnail/terrain_labels.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      },
+      {
+        "layers": [
+          {
+            "id": "defaultBasemap",
+            "layerType": "ArcGISTiledMapServiceLayer",
+            "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+            "visibility": true,
+            "opacity": 1,
+            "title": "Mapa topográfico mundial"
+          }
+        ],
+        "title": "Topográfico",
+        "thumbnailUrl": "//ingemmet-peru.maps.arcgis.com/sharing/rest/content/items/1254ac139ecf423fbb04020bc57025a5/info/thumbnail/topo_map_2.jpg",
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      }
+    ]
+  }
+}

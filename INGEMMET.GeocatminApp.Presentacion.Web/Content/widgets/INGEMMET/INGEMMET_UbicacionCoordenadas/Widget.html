@@ -1,0 +1,46 @@
+<div class="divPrincipal">
+        <div>Seleccione</div>
+<div id="divDatos" class="divDatos">
+    <div id="info" class="divMargen">
+        <button id="Point" class="cssPoint"></button>
+        <button id="Polygon" class="cssPolygon"></button>
+        <!-- 
+      <button id="Multipoint">Multipoint</button>
+      <button id="Line">Line</button>
+      <button id="Polyline">Polyline</button>
+      <button id="FreehandPolyline">Freehand Polyline</button>
+      <button id="Triangle">Triangle</button>
+      <button id="Extent">Rectangle</button>
+      <button id="Circle">Circle</button>
+      <button id="Ellipse">Ellipse</button>
+      
+      <button id="FreehandPolygon">Freehand Polygon</button>-->
+        <!--<div title="Punto" data-geotype="POINT" data-commontype="point" class="point-icon1"></div>
+
+        <div title="Poligon" data-geotype="POLYGON" data-commontype="polygon" class="polygon-icon1"></div>
+    -->
+    </div>
+
+    <div class="divMargen">
+
+        <input type="radio" dojotype="dijit.form.RadioButton" name="coordenadas" id="geo" checked value="geo" />
+        <label for="geo">Geogr&aacute;fica</label><br />
+
+        <input type="radio" dojotype="dijit.form.RadioButton" name="coordenadas" id="utm" value="utm" />
+        <label for="utm">UTM</label><br />
+
+    </div>
+
+
+    <div class="divMargen">
+        <select data-dojo-type="dijit/form/MultiSelect" id="lstTipo" name="lstTipo" size="4" class="combos">
+        </select>
+
+    </div>
+
+    </div>
+
+    <table id="UbigeoGrid" dojotype="dojox.grid.DataGrid" rowsperpage="10" autoheight="true" singleClickEdit="true"></table>
+    <div class="nota">(*) Coordenadas en WGS84</div>
+    <button id="btnGraficar" class="myIconU myIconUbica">Graficar</button>
+</div>

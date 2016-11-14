@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A8DD226-B1B0-4233-96D4-B948E9A3546F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>INGEMMET.GeocatminApp.Infraestructura.IOC</RootNamespace>
+    <AssemblyName>INGEMMET.GeocatminApp.Infraestructura.IOC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FabricaIOC.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\INGEMMET.GeocatminApp.Aplicacion.Interfaces\INGEMMET.GeocatminApp.Aplicacion.Interfaces.csproj">
+      <Project>{e3740553-773d-4afe-9156-65a014abfc21}</Project>
+      <Name>INGEMMET.GeocatminApp.Aplicacion.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\INGEMMET.GeocatminApp.Aplicacion\INGEMMET.GeocatminApp.Aplicacion.csproj">
+      <Project>{b2a75a7f-4d83-4e67-8941-6294e416be51}</Project>
+      <Name>INGEMMET.GeocatminApp.Aplicacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\INGEMMET.GeocatminApp.Dominio.Entidades\INGEMMET.GeocatminApp.Dominio.Entidades.csproj">
+      <Project>{77acc2f1-c2ab-43a7-bdec-30de3b911ef6}</Project>
+      <Name>INGEMMET.GeocatminApp.Dominio.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\INGEMMET.GeocatminApp.Dominio\INGEMMET.GeocatminApp.Dominio.csproj">
+      <Project>{63cd7d79-1faa-4a29-926b-78071e9c04b1}</Project>
+      <Name>INGEMMET.GeocatminApp.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\INGEMMET.GeocatminApp.Infraestructura.DataAccess\INGEMMET.GeocatminApp.Infraestructura.DataAccess.csproj">
+      <Project>{63c42b3c-12e4-4122-86a1-0b554c3ccda2}</Project>
+      <Name>INGEMMET.GeocatminApp.Infraestructura.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

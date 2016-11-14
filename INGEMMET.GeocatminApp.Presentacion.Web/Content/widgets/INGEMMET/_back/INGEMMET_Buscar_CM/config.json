@@ -1,0 +1,11 @@
+{
+   "codigo":"Código",
+   "nombre":"Nombre",
+   "titular":"Titular",
+   "fecha":"Fecha de Formulación",
+   "desde":"Desde",
+   "hasta":"Hasta",
+   "buscar":"Buscar",
+   "limpiar":"Limpiar",
+   "url": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer/0"
+}

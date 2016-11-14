@@ -1,0 +1,46 @@
+<div class="divPrincipal">
+    <div >
+        <div class="lblLabel" style="width: 60px;">C&oacutedigo: </div>
+        <input type="text" name="txtCodigo" id="txtCodigo"  value="" data-dojo-type="dijit/form/TextBox" data-dojo-props="trim:true" id="txtCodigo" />
+    </div>
+    <div >
+        <div class="lblLabel" style="width: 60px;">Nombre: </div>
+        <input type="text" name="txtNombre" value="" data-dojo-type="dijit/form/TextBox" data-dojo-props="trim:true" id="txtNombre" />
+    </div>
+    <div >
+        <div class="lblLabel" style="width: 60px;">Titular: </div>
+        <input type="text" name="txtTitular" value="" data-dojo-type="dijit/form/TextBox" data-dojo-props="trim:true" id="txtTitular" />
+    </div>
+
+    <div style="width: 100%;text-align: center;margin-top: 5px;margin-bottom: 5px;">Fecha de Formulaci&oacuten: </div>
+    <div class="controles">
+        <div class="lblLabel" style="width: 60px;">Desde: </div>
+        <input  data-dojo-id="myFromDate" 
+                id="myFromDate" type="text" 
+                name="fromDate" 
+                data-dojo-type="dijit/form/DateTextBox" 
+                constraints="{datePattern:'dd/MM/yyyy', strict:true}"   
+                class="DateTextBox"  
+                onChange="myToDate.constraints.min = arguments[0];"/>
+    </div>
+    <div>
+        <div class="lblLabel" style="width: 60px;">Hasta: </div>
+        <input  data-dojo-id="myToDate" id="myToDate" 
+                type="text" 
+                name="toDate" 
+                data-dojo-type="dijit/form/DateTextBox"   
+                constraints="{datePattern:'dd/MM/yyyy', strict:true}"   
+                class="DateTextBox" onChange="myFromDate.constraints.max = arguments[0];" />
+    </div>
+
+
+    <div style="text-align: center;">
+        
+        <button data-dojo-type="dijit/form/Button" id="btnLimpiar"   iconClass= "myIcon myIconLimpiar" type="button">
+            Limpiar
+        </button>
+        <button data-dojo-type="dijit/form/Button" id="btnBuscar" iconclass="myIcon myIconBuscar" type="button">
+            Buscar
+        </button>
+    </div>
+</div>

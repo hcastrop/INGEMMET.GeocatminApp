@@ -1,0 +1,6 @@
+﻿define(
+   ({
+    "codigo": "Código:"
+    
+  })
+);

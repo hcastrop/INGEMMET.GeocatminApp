@@ -1,0 +1,22 @@
+.combosDistribucion {
+    width: 130px !important;
+}
+
+.DistribucionRow {
+    text-align: center;
+}
+
+.ubigeoRow {
+    display: table-row;
+}
+
+.DistribucionCell {
+    /*display: table-cell;*/
+    display: -webkit-inline-box;
+    /*border: solid;*/
+    border-width: thin;
+    padding: 2px;
+    
+    text-align: center;
+}
+

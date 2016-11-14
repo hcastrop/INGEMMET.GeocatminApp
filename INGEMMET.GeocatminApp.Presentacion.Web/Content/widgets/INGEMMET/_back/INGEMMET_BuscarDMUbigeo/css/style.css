@@ -1,0 +1,26 @@
+
+select.combos
+{
+  font-size: 12px;
+  width: 110px;
+  height: 150px;
+}
+
+ .Tableubigeo {
+     display: table;
+ }
+ .ubigeoHeading {
+     display: table-row;
+     /*font-weight: bold;*/
+     text-align: center;
+ }
+ .ubigeoRow {
+     display: table-row;
+ }
+ .ubigeoCell {
+     display: table-cell;
+     /*border: solid;*/
+     border-width: thin;
+     padding-left: 5px;
+     padding-right: 5px;
+ }

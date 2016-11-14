@@ -1,0 +1,52 @@
+
+<div class="divPrincipal">
+    <!-- TabContainer -->
+    
+    <div id="divTabContaimer"   data-dojo-type="dijit/layout/TabContainer" style="padding-left: 8px; width: 100%; height: 25px; " tabstrip="true">
+    <!--    <div id="divTab">-->
+            <!--<div data-dojo-type="dijit/layout/ContentPane" title="My first tab" selected="true" class="tabchildResultados">
+                Lorem ipsum and all around...
+            </div>
+            <div data-dojo-type="dijit/layout/ContentPane" title="My second tab" class="tabchildResultados">
+                Lorem ipsum and all around - second...
+            </div>
+            <div data-dojo-type="dijit/layout/ContentPane" title="My last tab" class="tabchildResultados">
+                Lorem ipsum and all around - last...
+            </div>
+                -->
+        </div>
+
+        <!-- Grilla -->
+        <div id="rightPane" dojotype="dijit.layout.ContentPane" region="right">
+            <table id="myGrid" dojotype="dojox.grid.DataGrid" rowsperpage="10" autoheight="true"></table>
+        </div>
+
+        <div id="contentControls">
+            <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <span>Total registros = &nbsp</span><span id="recordsInfo">0</span>
+                    </td>
+                    <td>
+                        <span class="fa fa-print btnNext " data-dojo-attach-point="btnPrint"></span>
+                        <span class="fa fa-file-excel-o btnNext " data-dojo-attach-point="btnPrint"></span>
+
+                    </td>
+                    <td>
+                        <span class="fa fa-chevron-left  btnPrev" data-dojo-attach-point="btnPrev" data-dojo-attach-event="onclick:onClickPrev"></span>
+                        <span id="pageInfo"></span><span> &nbsppags</span>
+                        <span class="fa fa-chevron-right btnNext " data-dojo-attach-point="btnNext" data-dojo-attach-event="onclick:onClickNext"></span>
+                    </td>
+                </tr>
+            </table>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>

@@ -1,0 +1,60 @@
+<div class="divPrincipal">
+    <div class="TableProyectos">
+        <div class="ProyHeading ">
+            <div class="ProyCell">
+                <p >Seleccione campo</p>
+            </div>
+            <div class="ProyCell">
+                <p>Ingrese criterio</p>
+            </div>
+
+        </div>
+        <div class="ProyRow">
+            <div class="ProyCell">
+                <select data-dojo-type="dijit/form/ComboBox" id="cboFiltroEmpresa" name="cboFiltroEmpresa" class="combosProy" >
+                    <option value="" id="" selected>-Seleccione--</option>
+                    <option value="NOM_PROY" id="NOM_PRO" >Nombre</option>
+                    <option value="EMP_LOCAL" id="EMP_LOCAL">Empresa</option>
+                    <option value="M_PRED" id="M_PRED">Mineral</option>
+                </select>
+            </div>
+            <div class="ProyCell" >
+                <input type="text" name="txtEmpresa" id="txtEmpresa" value="" data-dojo-type="dijit/form/TextBox" data-dojo-props="trim:true" class="InputProy" />
+            </div>
+            <div class="ProyCell">
+                <button data-dojo-type="dijit/form/Button" id="btnProyecto" iconclass="myIcon myIconBuscar" type="button">
+                    Buscar
+                </button>
+            </div>
+            </div>
+    </div>
+
+    <!-- ******  Tabla de Resultados *******-->
+    <div id="divResultados" dojotype="dijit.layout.ContentPane" region="right">
+        <table id="myGridEmpresas" dojotype="dojox.grid.DataGrid" rowsperpage="10" autoheight="true" ></table>        
+    </div>
+
+    <div id="contentControls">
+        <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <span>Total registros = &nbsp</span><span id="recordsInfo">0</span>
+                </td>
+                <td>
+                    <span class="fa fa-print btnNext " data-dojo-attach-point="btnPrint"></span>
+                    <span class="fa fa-file-excel-o btnNext " data-dojo-attach-point="btnPrint"></span>
+
+                </td>
+                <td>
+                    <span class="fa fa-chevron-left  btnPrev" data-dojo-attach-point="btnPrev" data-dojo-attach-event="onclick:onClickPrev"></span>
+                    <span id="pageInfo"></span><span> &nbsppags</span>
+                    <span class="fa fa-chevron-right btnNext " data-dojo-attach-point="btnNext" data-dojo-attach-event="onclick:onClickNext"></span>
+                </td>
+            </tr>
+        </table>
+
+
+
+    </div>
+
+</div>

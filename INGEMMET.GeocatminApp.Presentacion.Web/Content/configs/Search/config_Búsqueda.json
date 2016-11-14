@@ -1,0 +1,36 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": null,
+      "url": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer/0",
+      "name": "Catastro Minero",
+      "placeholder": "",
+      "searchFields": [
+        "CODIGOU",
+        "CONCESION",
+        "TIT_CONCES"
+      ],
+      "displayField": "CODIGOU",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "Esri World Geocoder",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Esri World Geocoder",
+      "countryCode": "",
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "type": "locator"
+    }
+  ]
+}

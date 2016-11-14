@@ -1,0 +1,25 @@
+.search-btn {
+  cursor: pointer;
+  min-width: 100px;
+  display: inline-block;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  background: none repeat scroll 0% 0% #3b8fc4;
+  vertical-align: middle;
+  color: #FFF;
+  border-radius: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-btn:hover  {
+    background-color: rgba(59,143,196,0.55);
+
+}
+
+.mensaje
+{
+  color: #FF0000
+
+}

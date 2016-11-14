@@ -1,0 +1,200 @@
+.oculto{
+        visibility: hidden;
+}
+.visible{
+        visibility: visible;
+}
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: center;
+}
+
+/* Controles Personalizados */
+.tablePre{
+    display: inline-table;
+}
+.vertices{
+    width:40px;
+    display: inline-table;
+    vertical-align: top;
+}
+.ContenUbigeoGrid{
+    
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    
+}
+
+
+.report-feature-content{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+#PreEvalGridEdit{
+    width:210px;
+}
+#PreEvalGridEdit
+{
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 11px !important;
+
+}
+
+.myIconU {
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 40px;
+  text-align: right;
+  margin-right: 2px;
+  margin-left: 1px;
+  
+  background-color: #fff;
+  border: 1px solid #ddd !important;
+  cursor:pointer !important;
+  
+}
+.myIconGrafica {
+  background-image: url('images/grafica_poly_16x16.png') !important;
+
+}
+
+.UbigeoGridOff
+{
+    width: 0px;
+}
+.UbigeoGridOn
+{
+    width: 192px;
+}
+select.combos
+{
+  font-size: 12px;
+  width: 110px;
+  height: 150px;
+}
+
+ .Tableubigeo {
+     display: table;
+ }
+ .ubigeoHeading {
+     display: table-row;
+     /*font-weight: bold;*/
+     text-align: center;
+ }
+ .ubigeoRow {
+     display: table-row;
+ }
+ .ubigeoCell {
+     display: table-cell;
+     /*border: solid;*/
+     border-width: thin;
+     padding-left: 5px;
+     padding-right: 5px;
+ }
+ .PreEvalCell{
+     margin-bottom:5px;
+ }
+ /***************************/
+ .drs-widget-report-feature .report-feature-content{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+.drs-widget-report-feature>.jimu-tab>.control{
+  margin:-14px -14px 0px -14px;
+}
+.BoxTheme .drs-widget-report-feature>.jimu-tab>.control{
+  margin:0px -14px 0px -14px;
+}
+.drs-widget-report-feature .drs-loading-features {
+  background: url('../images/loading.gif') no-repeat left center;
+  padding-left: 20px;
+}
+
+.drs-info-window-form .drs-input-err {
+  border-color: #f00;
+}
+
+.drs-info-window-form label {
+  display: block;
+  margin-top: 1em;
+}
+
+.drs-info-window-form .drs-buttons {
+  margin-top: 1em;
+ /* width: 95%;*/
+}
+
+.drs-info-window-form textarea.jimu-input {
+  width: 100%;
+}
+
+.TabTheme .drs-widget-report-feature .jimu-tab>.control>.tab.jimu-state-selected{
+  border-top: 0;
+}
+.drs-widget-report-feature .jimu-widget-frame.jimu-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    padding: 0px 0px 14px 0px;
+    background-color: white;
+
+}
+.drs-widget-report-feature .selectLayer{
+    border-color: #d2dae2;
+    background-color: #fafafc;
+    color: #555555;
+    font-size: 14x;
+}
+.drs-widget-report-feature .selectLayer:active{
+    border-color: #c3c3c3;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "AVENIR LT STD 35 LIGHT";
+    font-size: 14x;
+}
+.drs-infowindow-input{
+  width:100%;
+  padding: 1px 3px 0 0;
+  font-size: 13px;
+}
+.controles{
+        margin-bottom: 5px;
+}

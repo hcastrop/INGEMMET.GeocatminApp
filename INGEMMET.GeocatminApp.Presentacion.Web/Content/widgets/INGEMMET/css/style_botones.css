@@ -1,0 +1,100 @@
+
+/*Estilo para los botones*/
+.myIcon {
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  margin-right: 2px;
+  margin-left: 1px;
+}
+.claro .dijitButton .dijitButtonNode, .claro .dijitDropDownButton .dijitButtonNode, .claro .dijitComboButton .dijitButtonNode, .claro .dijitToggleButton .dijitButtonNode {
+    
+    background: rgb(224, 241, 245) !important;
+    
+}
+.myIconBuscar {
+  background-image: url('../images/btn/i_search.png');
+}
+.myIconUbicar {
+  background-image: url('../images/btn/icon_ubica_16x16.png');
+}
+.myIconAddPoint {
+  background-image: url('../images/btn/point_add_16x16.png');
+}
+.myIconRemovePoint {
+  background-image: url('../images/btn/point_remove_16x16.png');
+}
+
+.myIconLoadExcel
+{
+  background-image: url('../images/btn/excel_load_16x16.png');
+  showLabel: false;
+}
+
+.myIconSaveExcel
+{
+  background-image: url('../images/btn/excel_save_16x16.png');
+}
+
+.myIconLoadText
+{
+  background-image: url('../images/btn/text_load_16x16.png');
+}
+
+.myIconSaveText
+{
+  background-image: url('../images/btn/text_save_16x16.png');
+}
+
+
+
+
+
+
+
+
+
+.myIconCapturar{
+  background-image: url('../images/btn/point_16x16.png');
+}
+.myIconLimpiar{
+  background-image: url('../images/btn/i_cancel_16x16.png');
+
+}
+.myIconPrev{
+  background-image: url('../images/btn/previous.png');
+  width:20px;
+
+}
+.myIconNext{
+  background-image: url('../images/btn/next.png');
+
+}
+
+
+#contentControls {
+    text-align: center;
+    /*height: 50px;*/
+    width: 100%;
+    /*padding-top: 10px;*/
+}
+
+    #contentControls span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        #contentControls span.btnPrev, #contentControls span.btnNext {
+            font-size: 10px;
+            cursor: pointer;
+            background: #0a588a;
+            padding: 7px 8px;
+            border-radius: 50%;
+            color: #fff;
+        }
+
+            #contentControls span.btnPrev:hover, #contentControls span.btnNext:hover {
+                background: #fff;
+                color: #0a588a;
+            }

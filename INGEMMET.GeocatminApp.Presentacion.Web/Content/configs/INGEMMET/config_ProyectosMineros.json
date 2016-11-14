@@ -1,0 +1,19 @@
+{
+"buscar": "Buscar",
+"ulr": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CARTERA_PROYECTOS_MINEROS/MapServer/1",
+"layout":  {
+                  "cells": [
+						{"field": "OBJECTID","name": "OBJECTID","width": "100px","hidden":"true" },
+						{"field": "NOM_PROY","name": "Nombre","width": "100px"},
+						{"field": "EST_MINA","name": "Estado","width": "60px"},
+						{"field": "EMP_LOCAL","name": "Empresa Local","width": "200px"},
+						{"field": "EMP_MATRIZ","name": "Empresa Matriz","width": "200px"},
+						{"field": "PAIS_INV","name": "Pais Inversionista","width": "80px"},
+						{"field": "M_PRED","name": "Mineral","width": "100px"},
+						{"field": "INV_SOL_MM","name": "Inversi&oacute;n(MM S/.)","width": "80px"}
+						
+
+
+                  ]
+              }
+}

@@ -1,0 +1,26 @@
+{"capas": 
+[
+  {
+	"url":"http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/WEBGIS_LEXICO_SC/MapServer",
+	"url_f":"",
+    "nombre":"Lexico",
+    "campo":"codigo_geologico",
+	"capa":"0",
+	"tipo":"poligono",
+	"tooltip_titulo":"",
+	"tooltip":""
+  },
+  {
+	"url":"http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA_DGR/WEBGIS_Libreta_Campo/MapServer",
+	"url_f":"http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA_DGR/WEBGIS_Libreta_Campo/FeatureServer/0",
+    "nombre":"LibretaCampo",
+    "campo":"CD_MTRA",
+	"capa":"0",
+	"tipo":"punto",
+	"tooltip_titulo":"Muestra: {CD_MTRA}",
+	"tooltip_contenido":"<b>Direccion:</b> {DIR}<br><b>Proyecto:</b> {CD_PROY}<br><b>SubProyecto:</b> {SUB_PROY}<br><b>Colectado:</b> {COLECTADO}<br><b>Libreta:</b> {CD_LIBRETA}<br><b>Fecha:</b> {F_MTRA}<br><b>Region:</b> {REGION}<br><b>Provincia:</b> {PROVINCIA}<br><b>Distrito:</b> {DISTRITO}<br><a href='http://www.ingemmet.gob.pe/{CD_MTRA}'>Editar</a></b>"
+  }
+
+  
+  ]
+}

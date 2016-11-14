@@ -1,0 +1,94 @@
+{
+   "codigo":"Código",
+   "nombre":"Nombre",
+   "titular":"Titular",
+   "fecha":"Fecha de Formulación",
+   "desde":"Desde",
+   "hasta":"Hasta",
+   "buscar":"Buscar",
+   "limpiar":"Limpiar",
+   "url": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer/0",
+   "symbols": {
+    "simplemarkersymbol": null,
+    "picturemarkersymbol": {
+      "url": "images/i_search.png",
+      "height": "20",
+      "width": "20",
+      "type": "esriPMS",
+      "angle": "0"
+    },
+    "symbolDefaults": {
+    "addtolegend": false,
+    "bufferUnits": {
+      "bufferUnit": [
+        {
+          "name": "UNIT_FOOT",
+          "label": "Feet"
+      }, {
+          "name": "UNIT_STATUTE_MILE",
+          "label": "Miles"
+      }, {
+          "name": "UNIT_METER",
+          "label": "Meter"
+      }
+    ]
+    },
+    "bufferDefaultValue": 5,
+    "bufferWKID": 102003,
+    "simplefillsymbol": {
+      "color": [
+        1,
+        185,
+        253,
+        128
+      ],
+      "outline": {
+        "color": [
+          1,
+          185,
+          253,
+          204
+        ],
+        "width": 1,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+
+    "simplelinesymbol": {
+      "type": "esriSLS",
+      "style": "esriSLSSolid",
+      "color": [
+        255,
+        0,
+        0,
+        204
+      ],
+      "width": 2
+    },
+    "simplefillsymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        128
+      ],
+      "outline": {
+        "color": [
+          255,
+          0,
+          0,
+          204
+        ],
+        "width": 2,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  }
+}

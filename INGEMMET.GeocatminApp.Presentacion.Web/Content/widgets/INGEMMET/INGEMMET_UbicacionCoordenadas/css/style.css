@@ -1,0 +1,90 @@
+.myIconU {
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 40px;
+  text-align: right;
+  margin-right: 2px;
+  margin-left: 1px;
+  
+  background-color: #fff;
+  border: 1px solid #ddd !important;
+  cursor:pointer !important;
+  
+}
+.myIconUbica {
+  background-image: url('images/ubicacion_32x32.png') !important;
+
+}
+select.combos
+{
+  font-size: 12px;
+  width: 80px;
+  height: 50px;
+}
+.divMargen {
+margin:5px;
+}
+
+.claro .dijitButton .dijitButtonNode, .claro .dijitDropDownButton .dijitButtonNode, .claro .dijitComboButton .dijitButtonNode, .claro .dijitToggleButton .dijitButtonNode {
+    cursor: pointer;
+     min-width: 20px; 
+    /* display: inline-block; */
+    /* padding: 5px 10px; */
+    /* font-size: 14px; */
+    /* text-align: center; */
+    background: #fff ;
+    border: 1px solid #ddd;
+    /* color: #333; */
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    /* box-shadow: none; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    /* letter-spacing: 1px; */
+    /* -webkit-font-smoothing: antialiased; */
+}
+
+button {
+ 
+border: 0px solid #AD235E;
+ cursor:pointer !important;
+width: 40px;
+height: 40px;
+}
+.nota {
+font-size:8px;
+}
+.cssPoint 
+{
+    background: url(images/point.png) no-repeat !important;
+
+}
+.cssPolygon
+{
+    background: url(images/polygon.png) no-repeat !important;
+
+}
+.divDatos {
+ display: -webkit-box;
+}
+.point-icon1 {background-image: url(images/point.png) ;width:40px;height:40px !important;}
+.polygon-icon1 {background-image: url(images/polygon.png);width:40px;height:40px !important;}
+.point-icon1:hover{background-color: #CFCFCF !important;}
+.polygon-icon1:hover{background-color: #CFCFCF !important;}
+/*.custom-draw-box {overflow-y: hidden;}*/
+
+.custom-draw-box .draw-items {overflow-y: hidden;}
+.custom-draw-box .draw-items .draw-item {width: 40px; height: 40px; background-repeat: no-repeat; text-align: center; float: left; margin: 7px;}
+.jimu-rtl .custom-draw-box .draw-items .draw-item {float: right;}
+.custom-draw-box .draw-item, .custom-draw-box .draw-item:hover {background-color: rgba(255, 255, 255, 0.5) !important;}
+.custom-draw-box .draw-item:hover {background-color: #CFCFCF !important;}
+.custom-draw-box .selected {background-color: #CFCFCF !important;}
+
+.custom-draw-box .line-icon {background-image: url(images/line.png);}
+.custom-draw-box .polyline-icon {background-image: url(images/polyline.png);}
+.custom-draw-box .freehand-polyline-icon {background-image: url(images/freehand_polyline.png);}
+.custom-draw-box .extent-icon {background-image: url(images/extent.png);}
+.custom-draw-box .polygon-icon {background-image: url(images/polygon.png);}
+.custom-draw-box .freehand-polygon-icon {background-image: url(images/freehand_polygon.png);}

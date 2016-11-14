@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="INGEMMET.GeocatminApp.Servicios.Servicios.TablasMaestras" CodeBehind="INGEMMET.GeocatminApp.Servicios.Servicios.svc.cs" %>

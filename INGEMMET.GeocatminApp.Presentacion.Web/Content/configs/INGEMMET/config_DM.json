@@ -1,0 +1,311 @@
+{
+  "urlRegion": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/0",
+  "camposRegion": "CD_DEPA, NM_DEPA",
+  "urlProvincia": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/1",
+  "camposProvincia": "CD_PROV, NM_PROV",
+  "urlDistrito": "http://geocatminapp.ingemmet.gob.pe/arcgis/rest/services/WEBGIS_CARTOGRAFIA_DEMARCACION_WGS84/MapServer/2",
+  "camposDistrito": "CD_DIST, NM_DIST",
+  "CapaBuscar": "Catastro Minero",
+  "CapaCampoDF": "UBIGEO",
+  "urlCatastro": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer/0",
+  "urlCorredorMapa": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MADRE_DIOS/MapServer",
+  "urlCorredorNombreCapa": "Corredor Minero",
+  "urlCatastroCorredor": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MADRE_DIOS/MapServer/0",
+  "urlCuadrangulo": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_BOLETINES/MapServer/3",
+  "Catastro": [
+    {
+      "capa": "Catastro Minero",
+      "registros": 0,
+      "criterio": " ",
+      "url": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MINERO/MapServer/0",
+      "layout": {
+        "cells": [
+          {
+            "field": "CODIGOU",
+            "name": "Ver Exp.",
+            "width": "100px",
+            "formatter": "function (value) {return '<a href='http://www.ingemmet.gob.pe/sidemcat?CodDM=' + value + '&TipoDoc=0' target='_blank'>Vizualizar</a>';}"
+          },
+          {
+            "field": "FEC_DENU: DateFormat(datePattern:'d MMMM  yyyy.', selector:'date')",
+            "name": "Fecha...",
+            "width": "180px"
+          },
+          {
+            "field": "'http://www.ingemmet.gob.pe/sidemcat?CodDM='||CODIGOU || '&TipoDoc=0'",
+            "name": "Link",
+            "width": "60px"
+          },
+          {
+            "field": "'http://www.ingemmet.gob.pe/igm-sidemcat-portlet/ver-resumen?pCodigo_DM='||CODIGOU",
+            "name": "Reporte",
+            "width": "60px"
+          },
+          {
+            "field": "CODIGOU",
+            "name": "C&oacute;digo",
+            "width": "100px"
+          },
+          {
+            "field": "CONCESION",
+            "name": "Nombre",
+            "width": "150px"
+          },
+          {
+            "field": "TIT_CONCES",
+            "name": "Titular",
+            "width": "200px"
+          },
+          {
+            "field": "HASDATUM",
+            "name": "Has.",
+            "width": "60px"
+          },
+          {
+            "field": "D_ESTADO",
+            "name": "Estado",
+            "width": "150px"
+          },
+          {
+            "field": "FEC_DENU",
+            "name": "Fech.Form.",
+            "width": "80px"
+          },
+          {
+            "field": "HOR_DENU",
+            "name": "Hora Form.",
+            "width": "80px"
+          },
+          {
+            "field": "TIPO_EX",
+            "name": "Tipo",
+            "width": "100px"
+          },
+          {
+            "field": "CARTA",
+            "name": "Carta",
+            "width": "50px"
+          },
+          {
+            "field": "ZONA",
+            "name": "Zona",
+            "width": "40px"
+          },
+          {
+            "field": "RESOL_TIT",
+            "name": "Resoluci&oacute;n T&iacute;tulo",
+            "width": "120px"
+          },
+          {
+            "field": "FECHA_RESOL_TIT",
+            "name": "Fech. Res.T&iacute;tulo",
+            "width": "120px"
+          },
+          {
+            "field": "DESIC_RESOL_TIT",
+            "name": "Desici&oacute;n Titulaci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "RESOL_EXTI",
+            "name": "Resoluci&oacute;n Extinci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "FECHA_RESOL_EXTI",
+            "name": "Fech. Res.Extinci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "DESIC_RESOL_EXT",
+            "name": "Desici&oacute;n Extinci&oacute;n",
+            "width": "150px"
+          },
+          {
+            "field": "UBICA_EXP",
+            "name": "Ubicaci&oacute;n Expediente",
+            "width": "200px"
+          },
+          {
+            "field": "CALIFICA",
+            "name": "Calificaci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "SUSTANCIA",
+            "name": "Sustancia",
+            "width": "120px"
+          },
+          {
+            "field": "DEPA",
+            "name": "Regi&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "PROVI",
+            "name": "Provincia",
+            "width": "120px"
+          },
+          {
+            "field": "DISTRI",
+            "name": "Distrito",
+            "width": "140px"
+          },
+          {
+            "field": "DIRECCION",
+            "name": "Direcci&oacute;n",
+            "width": "200px"
+          }
+        ]
+      }
+    }
+  ],
+  "CatastroCorredor": [
+    {
+      "capa": "Catastro Minero",
+      "registros": 0,
+      "criterio": " ",
+      "url": "http://geocatmin.ingemmet.gob.pe/arcgis/rest/services/SERV_CATASTRO_MADRE_DIOS/MapServer/0",
+      "layout": {
+        "cells": [
+          {
+            "field": "FEC_DENU: DateFormat(datePattern:'d MMMM  yyyy.', selector:'date')",
+            "name": "Fecha...",
+            "width": "180px"
+          },
+          {
+            "field": "CODIGOU",
+            "name": "Ver Exp.",
+            "width": "100px",
+            "formatter": "function (value) {return '<a href='http://www.ingemmet.gob.pe/sidemcat?CodDM=' + value + '&TipoDoc=0' target='_blank'>Vizualizar</a>'';}"
+          },
+          {
+            "field": "'http://www.ingemmet.gob.pe/sidemcat?CodDM='||CODIGOU || '&TipoDoc=0'",
+            "name": "Link",
+            "width": "60px"
+          },
+          {
+            "field": "'http://www.ingemmet.gob.pe/igm-sidemcat-portlet/ver-resumen?pCodigo_DM='||CODIGOU",
+            "name": "Reporte",
+            "width": "60px"
+          },
+          {
+            "field": "CODIGOU",
+            "name": "C&oacute;digo",
+            "width": "100px"
+          },
+          {
+            "field": "CONCESION",
+            "name": "Nombre",
+            "width": "150px"
+          },
+          {
+            "field": "TIT_CONCES",
+            "name": "Titular",
+            "width": "200px"
+          },
+          {
+            "field": "HASDATUM",
+            "name": "Has.",
+            "width": "60px"
+          },
+          {
+            "field": "D_ESTADO",
+            "name": "Estado",
+            "width": "150px"
+          },
+          {
+            "field": "FEC_DENU",
+            "name": "Fech.Form.",
+            "width": "80px"
+          },
+          {
+            "field": "HOR_DENU",
+            "name": "Hora Form.",
+            "width": "80px"
+          },
+          {
+            "field": "TIPO_EX",
+            "name": "Tipo",
+            "width": "100px"
+          },
+          {
+            "field": "CARTA",
+            "name": "Carta",
+            "width": "50px"
+          },
+          {
+            "field": "ZONA",
+            "name": "Zona",
+            "width": "40px"
+          },
+          {
+            "field": "RESOL_TIT",
+            "name": "Resoluci&oacute;n T&iacute;tulo",
+            "width": "120px"
+          },
+          {
+            "field": "FECHA_RESOL_TIT",
+            "name": "Fech. Res.T&iacute;tulo",
+            "width": "120px"
+          },
+          {
+            "field": "DESIC_RESOL_TIT",
+            "name": "Desici&oacute;n Titulaci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "RESOL_EXTI",
+            "name": "Resoluci&oacute;n Extinci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "FECHA_RESOL_EXTI",
+            "name": "Fech. Res.Extinci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "DESIC_RESOL_EXT",
+            "name": "Desici&oacute;n Extinci&oacute;n",
+            "width": "150px"
+          },
+          {
+            "field": "UBICA_EXP",
+            "name": "Ubicaci&oacute;n Expediente",
+            "width": "200px"
+          },
+          {
+            "field": "CALIFICA",
+            "name": "Calificaci&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "SUSTANCIA",
+            "name": "Sustancia",
+            "width": "120px"
+          },
+          {
+            "field": "DEPA",
+            "name": "Regi&oacute;n",
+            "width": "120px"
+          },
+          {
+            "field": "PROVI",
+            "name": "Provincia",
+            "width": "120px"
+          },
+          {
+            "field": "DISTRI",
+            "name": "Distrito",
+            "width": "140px"
+          },
+          {
+            "field": "DIRECCION",
+            "name": "Direcci&oacute;n",
+            "width": "200px"
+          }
+        ]
+      }
+    }
+  ]
+}

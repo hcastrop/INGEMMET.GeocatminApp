@@ -1,0 +1,35 @@
+<div>
+    <div class="Tableubigeo">
+        <div class="ubigeoHeading">
+            <div class="ubigeoCell">
+                <p>Región</p>
+            </div>
+            <div class="ubigeoCell">
+                <p>Provincia</p>
+            </div>
+            <div class="ubigeoCell">
+                <p>Distrito</p>
+            </div>
+        </div>
+        <div class="ubigeoRow">
+            <div class="ubigeoCell">
+                <select data-dojo-type="dijit.form.MultiSelect" id="lstDepartamento" name="lstDepartamento" size="6" data-dojo-attach-event="onchange:onSelectDepartamento" class="combos"></select>
+            </div>
+            <div class="ubigeoCell">
+                <select data-dojo-type="dijit.form.MultiSelect" id="lstProvincia" name="lstProvincia" size="6" data-dojo-attach-event="onchange:onSelectProvincia" class="combos"></select>
+
+            </div>
+            <div class="ubigeoCell">
+                <select data-dojo-type="dijit.form.MultiSelect" id="lstDistrito" name="lstDistrito" size="6" data-dojo-attach-event="onchange:onSelectDistrito" class="combos"></select>
+            </div>
+        </div>
+
+    </div>
+
+<!--
+    <div class="dijitReset dijitInputField dijitInputContainer" style="text-align: center;">
+        <div class="search-btn" data-dojo-attach-point="btnSearch" data-dojo-attach-event="onclick:onSearch">${config.buscar}</div>
+        <div class="search-btn" data-dojo-attach-point="btnLimpiar" data-dojo-attach-event="onclick:onLimpiar">${config.limpiar}</div>
+    </div>
+    -->
+</div>
